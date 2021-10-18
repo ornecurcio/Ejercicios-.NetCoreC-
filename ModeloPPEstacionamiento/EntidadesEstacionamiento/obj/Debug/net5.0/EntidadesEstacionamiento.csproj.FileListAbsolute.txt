@@ -1,0 +1,12 @@
+C:\Users\orne_\source\repos\ModeloPPEstacionamiento\EntidadesEstacionamiento\bin\Debug\net5.0\EntidadesEstacionamiento.deps.json
+C:\Users\orne_\source\repos\ModeloPPEstacionamiento\EntidadesEstacionamiento\bin\Debug\net5.0\EntidadesEstacionamiento.dll
+C:\Users\orne_\source\repos\ModeloPPEstacionamiento\EntidadesEstacionamiento\bin\Debug\net5.0\ref\EntidadesEstacionamiento.dll
+C:\Users\orne_\source\repos\ModeloPPEstacionamiento\EntidadesEstacionamiento\bin\Debug\net5.0\EntidadesEstacionamiento.pdb
+C:\Users\orne_\source\repos\ModeloPPEstacionamiento\EntidadesEstacionamiento\obj\Debug\net5.0\EntidadesEstacionamiento.csproj.AssemblyReference.cache
+C:\Users\orne_\source\repos\ModeloPPEstacionamiento\EntidadesEstacionamiento\obj\Debug\net5.0\EntidadesEstacionamiento.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\orne_\source\repos\ModeloPPEstacionamiento\EntidadesEstacionamiento\obj\Debug\net5.0\EntidadesEstacionamiento.AssemblyInfoInputs.cache
+C:\Users\orne_\source\repos\ModeloPPEstacionamiento\EntidadesEstacionamiento\obj\Debug\net5.0\EntidadesEstacionamiento.AssemblyInfo.cs
+C:\Users\orne_\source\repos\ModeloPPEstacionamiento\EntidadesEstacionamiento\obj\Debug\net5.0\EntidadesEstacionamiento.csproj.CoreCompileInputs.cache
+C:\Users\orne_\source\repos\ModeloPPEstacionamiento\EntidadesEstacionamiento\obj\Debug\net5.0\EntidadesEstacionamiento.dll
+C:\Users\orne_\source\repos\ModeloPPEstacionamiento\EntidadesEstacionamiento\obj\Debug\net5.0\ref\EntidadesEstacionamiento.dll
+C:\Users\orne_\source\repos\ModeloPPEstacionamiento\EntidadesEstacionamiento\obj\Debug\net5.0\EntidadesEstacionamiento.pdb

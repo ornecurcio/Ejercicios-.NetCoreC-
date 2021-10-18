@@ -1,0 +1,10 @@
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerSobrecargaOpe\bin\Debug\EjerSobrecargaOpe.exe.config
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerSobrecargaOpe\bin\Debug\EjerSobrecargaOpe.exe
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerSobrecargaOpe\bin\Debug\EjerSobrecargaOpe.pdb
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerSobrecargaOpe\bin\Debug\Entidades.dll
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerSobrecargaOpe\bin\Debug\Entidades.pdb
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerSobrecargaOpe\obj\Debug\EjerSobrecargaOpe.csproj.AssemblyReference.cache
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerSobrecargaOpe\obj\Debug\EjerSobrecargaOpe.csproj.CoreCompileInputs.cache
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerSobrecargaOpe\obj\Debug\EjerSobrecargaOpe.csproj.CopyComplete
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerSobrecargaOpe\obj\Debug\EjerSobrecargaOpe.exe
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerSobrecargaOpe\obj\Debug\EjerSobrecargaOpe.pdb

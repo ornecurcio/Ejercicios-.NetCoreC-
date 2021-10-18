@@ -1,0 +1,13 @@
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerRegistrate\bin\Debug\EjerRegistrate.exe.config
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerRegistrate\bin\Debug\EjerRegistrate.exe
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerRegistrate\bin\Debug\EjerRegistrate.pdb
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerRegistrate\bin\Debug\Ingresante.dll
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerRegistrate\bin\Debug\Ingresante.pdb
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerRegistrate\obj\Debug\EjerRegistrate.csproj.AssemblyReference.cache
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerRegistrate\obj\Debug\EjerRegistrate.Properties.Resources.resources
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerRegistrate\obj\Debug\EjerRegistrate.Registro.resources
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerRegistrate\obj\Debug\EjerRegistrate.csproj.GenerateResource.cache
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerRegistrate\obj\Debug\EjerRegistrate.csproj.CoreCompileInputs.cache
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerRegistrate\obj\Debug\EjerRegistrate.csproj.CopyComplete
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerRegistrate\obj\Debug\EjerRegistrate.exe
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerRegistrate\obj\Debug\EjerRegistrate.pdb

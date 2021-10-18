@@ -1,0 +1,44 @@
+C:\Users\orne_\source\repos\RepasoSabado\FrmPcipal\obj\Debug\net5.0-windows\FrmPcipal.csproj.AssemblyReference.cache
+C:\Users\orne_\source\repos\RepasoSabado\FrmPcipal\obj\Debug\net5.0-windows\FrmPcipal.Form1.resources
+C:\Users\orne_\source\repos\RepasoSabado\FrmPcipal\obj\Debug\net5.0-windows\FrmPcipal.FormCarga.resources
+C:\Users\orne_\source\repos\RepasoSabado\FrmPcipal\obj\Debug\net5.0-windows\FrmPcipal.csproj.GenerateResource.cache
+C:\Users\orne_\source\repos\RepasoSabado\FrmPcipal\obj\Debug\net5.0-windows\FrmPcipal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\orne_\source\repos\RepasoSabado\FrmPcipal\obj\Debug\net5.0-windows\FrmPcipal.AssemblyInfoInputs.cache
+C:\Users\orne_\source\repos\RepasoSabado\FrmPcipal\obj\Debug\net5.0-windows\FrmPcipal.AssemblyInfo.cs
+C:\Users\orne_\source\repos\RepasoSabado\FrmPcipal\obj\Debug\net5.0-windows\FrmPcipal.csproj.CoreCompileInputs.cache
+C:\Users\orne_\source\repos\RepasoSabado\FrmPcipal\bin\Debug\net5.0-windows\FrmPcipal.exe
+C:\Users\orne_\source\repos\RepasoSabado\FrmPcipal\bin\Debug\net5.0-windows\FrmPcipal.deps.json
+C:\Users\orne_\source\repos\RepasoSabado\FrmPcipal\bin\Debug\net5.0-windows\FrmPcipal.runtimeconfig.json
+C:\Users\orne_\source\repos\RepasoSabado\FrmPcipal\bin\Debug\net5.0-windows\FrmPcipal.runtimeconfig.dev.json
+C:\Users\orne_\source\repos\RepasoSabado\FrmPcipal\bin\Debug\net5.0-windows\FrmPcipal.dll
+C:\Users\orne_\source\repos\RepasoSabado\FrmPcipal\bin\Debug\net5.0-windows\ref\FrmPcipal.dll
+C:\Users\orne_\source\repos\RepasoSabado\FrmPcipal\bin\Debug\net5.0-windows\FrmPcipal.pdb
+C:\Users\orne_\source\repos\RepasoSabado\FrmPcipal\bin\Debug\net5.0-windows\Entidades.dll
+C:\Users\orne_\source\repos\RepasoSabado\FrmPcipal\bin\Debug\net5.0-windows\Entidades.pdb
+C:\Users\orne_\source\repos\RepasoSabado\FrmPcipal\obj\Debug\net5.0-windows\FrmPcipal.csproj.CopyComplete
+C:\Users\orne_\source\repos\RepasoSabado\FrmPcipal\obj\Debug\net5.0-windows\FrmPcipal.dll
+C:\Users\orne_\source\repos\RepasoSabado\FrmPcipal\obj\Debug\net5.0-windows\ref\FrmPcipal.dll
+C:\Users\orne_\source\repos\RepasoSabado\FrmPcipal\obj\Debug\net5.0-windows\FrmPcipal.pdb
+C:\Users\orne_\source\repos\RepasoSabado\FrmPcipal\obj\Debug\net5.0-windows\FrmPcipal.genruntimeconfig.cache
+C:\Users\orne_\source\repos\Progra y Labo II\RepasoSabado\FrmPcipal\bin\Debug\net5.0-windows\FrmPcipal.exe
+C:\Users\orne_\source\repos\Progra y Labo II\RepasoSabado\FrmPcipal\bin\Debug\net5.0-windows\FrmPcipal.deps.json
+C:\Users\orne_\source\repos\Progra y Labo II\RepasoSabado\FrmPcipal\bin\Debug\net5.0-windows\FrmPcipal.runtimeconfig.json
+C:\Users\orne_\source\repos\Progra y Labo II\RepasoSabado\FrmPcipal\bin\Debug\net5.0-windows\FrmPcipal.runtimeconfig.dev.json
+C:\Users\orne_\source\repos\Progra y Labo II\RepasoSabado\FrmPcipal\bin\Debug\net5.0-windows\FrmPcipal.dll
+C:\Users\orne_\source\repos\Progra y Labo II\RepasoSabado\FrmPcipal\bin\Debug\net5.0-windows\ref\FrmPcipal.dll
+C:\Users\orne_\source\repos\Progra y Labo II\RepasoSabado\FrmPcipal\bin\Debug\net5.0-windows\FrmPcipal.pdb
+C:\Users\orne_\source\repos\Progra y Labo II\RepasoSabado\FrmPcipal\bin\Debug\net5.0-windows\Entidades.dll
+C:\Users\orne_\source\repos\Progra y Labo II\RepasoSabado\FrmPcipal\bin\Debug\net5.0-windows\Entidades.pdb
+C:\Users\orne_\source\repos\Progra y Labo II\RepasoSabado\FrmPcipal\obj\Debug\net5.0-windows\FrmPcipal.csproj.AssemblyReference.cache
+C:\Users\orne_\source\repos\Progra y Labo II\RepasoSabado\FrmPcipal\obj\Debug\net5.0-windows\FrmPcipal.Form1.resources
+C:\Users\orne_\source\repos\Progra y Labo II\RepasoSabado\FrmPcipal\obj\Debug\net5.0-windows\FrmPcipal.FormCarga.resources
+C:\Users\orne_\source\repos\Progra y Labo II\RepasoSabado\FrmPcipal\obj\Debug\net5.0-windows\FrmPcipal.csproj.GenerateResource.cache
+C:\Users\orne_\source\repos\Progra y Labo II\RepasoSabado\FrmPcipal\obj\Debug\net5.0-windows\FrmPcipal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\orne_\source\repos\Progra y Labo II\RepasoSabado\FrmPcipal\obj\Debug\net5.0-windows\FrmPcipal.AssemblyInfoInputs.cache
+C:\Users\orne_\source\repos\Progra y Labo II\RepasoSabado\FrmPcipal\obj\Debug\net5.0-windows\FrmPcipal.AssemblyInfo.cs
+C:\Users\orne_\source\repos\Progra y Labo II\RepasoSabado\FrmPcipal\obj\Debug\net5.0-windows\FrmPcipal.csproj.CoreCompileInputs.cache
+C:\Users\orne_\source\repos\Progra y Labo II\RepasoSabado\FrmPcipal\obj\Debug\net5.0-windows\FrmPcipal.csproj.CopyComplete
+C:\Users\orne_\source\repos\Progra y Labo II\RepasoSabado\FrmPcipal\obj\Debug\net5.0-windows\FrmPcipal.dll
+C:\Users\orne_\source\repos\Progra y Labo II\RepasoSabado\FrmPcipal\obj\Debug\net5.0-windows\ref\FrmPcipal.dll
+C:\Users\orne_\source\repos\Progra y Labo II\RepasoSabado\FrmPcipal\obj\Debug\net5.0-windows\FrmPcipal.pdb
+C:\Users\orne_\source\repos\Progra y Labo II\RepasoSabado\FrmPcipal\obj\Debug\net5.0-windows\FrmPcipal.genruntimeconfig.cache

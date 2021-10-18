@@ -1,0 +1,6 @@
+C:\Users\orne_\source\repos\ModeloPPEstacionamiento\EntidadesEstacionamientoFramework\bin\Debug\EntidadesEstacionamientoFramework.dll
+C:\Users\orne_\source\repos\ModeloPPEstacionamiento\EntidadesEstacionamientoFramework\bin\Debug\EntidadesEstacionamientoFramework.pdb
+C:\Users\orne_\source\repos\ModeloPPEstacionamiento\EntidadesEstacionamientoFramework\obj\Debug\EntidadesEstacionamientoFramework.csproj.AssemblyReference.cache
+C:\Users\orne_\source\repos\ModeloPPEstacionamiento\EntidadesEstacionamientoFramework\obj\Debug\EntidadesEstacionamientoFramework.csproj.CoreCompileInputs.cache
+C:\Users\orne_\source\repos\ModeloPPEstacionamiento\EntidadesEstacionamientoFramework\obj\Debug\EntidadesEstacionamientoFramework.dll
+C:\Users\orne_\source\repos\ModeloPPEstacionamiento\EntidadesEstacionamientoFramework\obj\Debug\EntidadesEstacionamientoFramework.pdb

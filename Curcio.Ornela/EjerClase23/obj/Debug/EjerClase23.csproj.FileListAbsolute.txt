@@ -1,0 +1,13 @@
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase23\bin\Debug\EjerClase23.exe.config
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase23\bin\Debug\EjerClase23.exe
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase23\bin\Debug\EjerClase23.pdb
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase23\obj\Debug\EjerClase23.csproj.AssemblyReference.cache
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase23\obj\Debug\EjerClase23.FrmMonedas.resources
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase23\obj\Debug\EjerClase23.Properties.Resources.resources
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase23\obj\Debug\EjerClase23.csproj.GenerateResource.cache
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase23\obj\Debug\EjerClase23.csproj.CoreCompileInputs.cache
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase23\obj\Debug\EjerClase23.exe
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase23\obj\Debug\EjerClase23.pdb
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase23\bin\Debug\Moneda.dll
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase23\bin\Debug\Moneda.pdb
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase23\obj\Debug\EjerClase23.csproj.CopyComplete

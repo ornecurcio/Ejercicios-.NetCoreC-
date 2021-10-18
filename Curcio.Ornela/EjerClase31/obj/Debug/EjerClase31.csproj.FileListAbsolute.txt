@@ -1,0 +1,10 @@
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase31\bin\Debug\EjerClase31.exe.config
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase31\bin\Debug\EjerClase31.exe
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase31\bin\Debug\EjerClase31.pdb
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase31\bin\Debug\AtencionAlCliente.dll
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase31\bin\Debug\AtencionAlCliente.pdb
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase31\obj\Debug\EjerClase31.csproj.AssemblyReference.cache
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase31\obj\Debug\EjerClase31.csproj.CoreCompileInputs.cache
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase31\obj\Debug\EjerClase31.csproj.CopyComplete
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase31\obj\Debug\EjerClase31.exe
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase31\obj\Debug\EjerClase31.pdb

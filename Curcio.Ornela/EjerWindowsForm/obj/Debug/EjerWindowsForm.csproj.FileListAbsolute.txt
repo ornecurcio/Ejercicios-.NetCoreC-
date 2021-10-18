@@ -1,0 +1,10 @@
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerWindowsForm\bin\Debug\EjerWindowsForm.exe.config
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerWindowsForm\bin\Debug\EjerWindowsForm.exe
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerWindowsForm\bin\Debug\EjerWindowsForm.pdb
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerWindowsForm\obj\Debug\EjerWindowsForm.csproj.AssemblyReference.cache
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerWindowsForm\obj\Debug\EjerWindowsForm.Properties.Resources.resources
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerWindowsForm\obj\Debug\EjerWindowsForm.csproj.GenerateResource.cache
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerWindowsForm\obj\Debug\EjerWindowsForm.csproj.CoreCompileInputs.cache
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerWindowsForm\obj\Debug\EjerWindowsForm.exe
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerWindowsForm\obj\Debug\EjerWindowsForm.pdb
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerWindowsForm\obj\Debug\EjerWindowsForm.FormUniverso.resources

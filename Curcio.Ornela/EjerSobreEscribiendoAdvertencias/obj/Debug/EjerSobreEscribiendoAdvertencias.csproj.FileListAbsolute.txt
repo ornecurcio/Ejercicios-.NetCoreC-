@@ -1,0 +1,7 @@
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerSobreEscribiendoAdvertencias\bin\Debug\EjerSobreEscribiendoAdvertencias.exe.config
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerSobreEscribiendoAdvertencias\bin\Debug\EjerSobreEscribiendoAdvertencias.exe
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerSobreEscribiendoAdvertencias\bin\Debug\EjerSobreEscribiendoAdvertencias.pdb
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerSobreEscribiendoAdvertencias\obj\Debug\EjerSobreEscribiendoAdvertencias.csproj.AssemblyReference.cache
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerSobreEscribiendoAdvertencias\obj\Debug\EjerSobreEscribiendoAdvertencias.csproj.CoreCompileInputs.cache
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerSobreEscribiendoAdvertencias\obj\Debug\EjerSobreEscribiendoAdvertencias.exe
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerSobreEscribiendoAdvertencias\obj\Debug\EjerSobreEscribiendoAdvertencias.pdb

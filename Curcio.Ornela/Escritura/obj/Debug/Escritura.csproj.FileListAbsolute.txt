@@ -1,0 +1,6 @@
+C:\Users\orne_\source\repos\Curcio.Ornela\Escritura\bin\Debug\Escritura.dll
+C:\Users\orne_\source\repos\Curcio.Ornela\Escritura\bin\Debug\Escritura.pdb
+C:\Users\orne_\source\repos\Curcio.Ornela\Escritura\obj\Debug\Escritura.csproj.AssemblyReference.cache
+C:\Users\orne_\source\repos\Curcio.Ornela\Escritura\obj\Debug\Escritura.csproj.CoreCompileInputs.cache
+C:\Users\orne_\source\repos\Curcio.Ornela\Escritura\obj\Debug\Escritura.dll
+C:\Users\orne_\source\repos\Curcio.Ornela\Escritura\obj\Debug\Escritura.pdb

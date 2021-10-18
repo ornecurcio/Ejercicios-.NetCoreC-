@@ -1,0 +1,7 @@
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase33\bin\Debug\EjerClase33.exe.config
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase33\bin\Debug\EjerClase33.exe
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase33\bin\Debug\EjerClase33.pdb
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase33\obj\Debug\EjerClase33.csproj.AssemblyReference.cache
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase33\obj\Debug\EjerClase33.csproj.CoreCompileInputs.cache
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase33\obj\Debug\EjerClase33.exe
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase33\obj\Debug\EjerClase33.pdb

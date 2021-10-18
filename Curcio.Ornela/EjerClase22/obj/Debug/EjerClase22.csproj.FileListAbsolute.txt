@@ -1,0 +1,11 @@
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase22\bin\Debug\EjerClase22.exe.config
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase22\bin\Debug\EjerClase22.exe
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase22\bin\Debug\EjerClase22.pdb
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase22\bin\Debug\EjerClase13.exe
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase22\bin\Debug\EjerClase13.pdb
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase22\bin\Debug\EjerClase13.exe.config
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase22\obj\Debug\EjerClase22.csproj.AssemblyReference.cache
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase22\obj\Debug\EjerClase22.csproj.CoreCompileInputs.cache
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase22\obj\Debug\EjerClase22.csproj.CopyComplete
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase22\obj\Debug\EjerClase22.exe
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase22\obj\Debug\EjerClase22.pdb

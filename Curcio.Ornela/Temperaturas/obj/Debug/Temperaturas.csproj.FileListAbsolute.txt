@@ -1,0 +1,5 @@
+C:\Users\orne_\source\repos\Curcio.Ornela\Temperaturas\obj\Debug\Temperaturas.csproj.CoreCompileInputs.cache
+C:\Users\orne_\source\repos\Curcio.Ornela\Temperaturas\bin\Debug\Temperaturas.dll
+C:\Users\orne_\source\repos\Curcio.Ornela\Temperaturas\bin\Debug\Temperaturas.pdb
+C:\Users\orne_\source\repos\Curcio.Ornela\Temperaturas\obj\Debug\Temperaturas.dll
+C:\Users\orne_\source\repos\Curcio.Ornela\Temperaturas\obj\Debug\Temperaturas.pdb

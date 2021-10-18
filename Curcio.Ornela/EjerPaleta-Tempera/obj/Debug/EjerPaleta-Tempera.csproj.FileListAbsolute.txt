@@ -1,0 +1,10 @@
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerPaleta-Tempera\bin\Debug\EjerPaleta-Tempera.exe.config
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerPaleta-Tempera\bin\Debug\EjerPaleta-Tempera.exe
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerPaleta-Tempera\bin\Debug\EjerPaleta-Tempera.pdb
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerPaleta-Tempera\bin\Debug\Escritura.dll
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerPaleta-Tempera\bin\Debug\Escritura.pdb
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerPaleta-Tempera\obj\Debug\EjerPaleta-Tempera.csproj.AssemblyReference.cache
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerPaleta-Tempera\obj\Debug\EjerPaleta-Tempera.csproj.CoreCompileInputs.cache
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerPaleta-Tempera\obj\Debug\EjerPaleta-Tempera.csproj.CopyComplete
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerPaleta-Tempera\obj\Debug\EjerPaleta-Tempera.exe
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerPaleta-Tempera\obj\Debug\EjerPaleta-Tempera.pdb

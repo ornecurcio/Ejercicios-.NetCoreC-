@@ -1,0 +1,6 @@
+C:\Users\orne_\source\repos\Curcio.Ornela\Ingresante\bin\Debug\Ingresante.dll
+C:\Users\orne_\source\repos\Curcio.Ornela\Ingresante\bin\Debug\Ingresante.pdb
+C:\Users\orne_\source\repos\Curcio.Ornela\Ingresante\obj\Debug\Estudiantes.csproj.AssemblyReference.cache
+C:\Users\orne_\source\repos\Curcio.Ornela\Ingresante\obj\Debug\Estudiantes.csproj.CoreCompileInputs.cache
+C:\Users\orne_\source\repos\Curcio.Ornela\Ingresante\obj\Debug\Ingresante.dll
+C:\Users\orne_\source\repos\Curcio.Ornela\Ingresante\obj\Debug\Ingresante.pdb

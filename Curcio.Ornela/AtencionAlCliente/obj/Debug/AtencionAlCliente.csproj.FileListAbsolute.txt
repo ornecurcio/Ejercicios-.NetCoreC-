@@ -1,0 +1,6 @@
+C:\Users\orne_\source\repos\Curcio.Ornela\AtencionAlCliente\bin\Debug\AtencionAlCliente.dll
+C:\Users\orne_\source\repos\Curcio.Ornela\AtencionAlCliente\bin\Debug\AtencionAlCliente.pdb
+C:\Users\orne_\source\repos\Curcio.Ornela\AtencionAlCliente\obj\Debug\AtencionAlCliente.csproj.AssemblyReference.cache
+C:\Users\orne_\source\repos\Curcio.Ornela\AtencionAlCliente\obj\Debug\AtencionAlCliente.csproj.CoreCompileInputs.cache
+C:\Users\orne_\source\repos\Curcio.Ornela\AtencionAlCliente\obj\Debug\AtencionAlCliente.dll
+C:\Users\orne_\source\repos\Curcio.Ornela\AtencionAlCliente\obj\Debug\AtencionAlCliente.pdb

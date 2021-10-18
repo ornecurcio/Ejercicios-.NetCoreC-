@@ -1,0 +1,11 @@
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerHolaWindowsForm\bin\Debug\EjerHolaWindowsForm.exe.config
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerHolaWindowsForm\bin\Debug\EjerHolaWindowsForm.exe
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerHolaWindowsForm\bin\Debug\EjerHolaWindowsForm.pdb
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerHolaWindowsForm\obj\Debug\EjerHolaWindowsForm.csproj.AssemblyReference.cache
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerHolaWindowsForm\obj\Debug\EjerHolaWindowsForm.FrmIngreso.resources
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerHolaWindowsForm\obj\Debug\EjerHolaWindowsForm.Properties.Resources.resources
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerHolaWindowsForm\obj\Debug\EjerHolaWindowsForm.Saludo.resources
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerHolaWindowsForm\obj\Debug\EjerHolaWindowsForm.csproj.GenerateResource.cache
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerHolaWindowsForm\obj\Debug\EjerHolaWindowsForm.csproj.CoreCompileInputs.cache
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerHolaWindowsForm\obj\Debug\EjerHolaWindowsForm.exe
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerHolaWindowsForm\obj\Debug\EjerHolaWindowsForm.pdb

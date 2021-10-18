@@ -1,0 +1,10 @@
+C:\Users\orne_\source\repos\Curcio.Ornela.Parcial.I.Labo.II\TestParcial\obj\Debug\TestParcial.csproj.CoreCompileInputs.cache
+C:\Users\orne_\source\repos\Curcio.Ornela.Parcial.I.Labo.II\TestParcial\obj\Debug\TestParcial.csproj.AssemblyReference.cache
+C:\Users\orne_\source\repos\Curcio.Ornela.Parcial.I.Labo.II\TestParcial\bin\Debug\TestParcial.exe.config
+C:\Users\orne_\source\repos\Curcio.Ornela.Parcial.I.Labo.II\TestParcial\bin\Debug\TestParcial.exe
+C:\Users\orne_\source\repos\Curcio.Ornela.Parcial.I.Labo.II\TestParcial\bin\Debug\TestParcial.pdb
+C:\Users\orne_\source\repos\Curcio.Ornela.Parcial.I.Labo.II\TestParcial\bin\Debug\Entidades.dll
+C:\Users\orne_\source\repos\Curcio.Ornela.Parcial.I.Labo.II\TestParcial\bin\Debug\Entidades.pdb
+C:\Users\orne_\source\repos\Curcio.Ornela.Parcial.I.Labo.II\TestParcial\obj\Debug\TestParcial.csproj.CopyComplete
+C:\Users\orne_\source\repos\Curcio.Ornela.Parcial.I.Labo.II\TestParcial\obj\Debug\TestParcial.exe
+C:\Users\orne_\source\repos\Curcio.Ornela.Parcial.I.Labo.II\TestParcial\obj\Debug\TestParcial.pdb

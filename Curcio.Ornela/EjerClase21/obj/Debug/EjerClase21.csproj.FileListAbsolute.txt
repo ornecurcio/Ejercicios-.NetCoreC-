@@ -1,0 +1,10 @@
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase21\bin\Debug\EjerClase21.exe.config
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase21\bin\Debug\EjerClase21.exe
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase21\bin\Debug\EjerClase21.pdb
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase21\bin\Debug\Temperaturas.dll
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase21\bin\Debug\Temperaturas.pdb
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase21\obj\Debug\EjerClase21.csproj.AssemblyReference.cache
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase21\obj\Debug\EjerClase21.csproj.CoreCompileInputs.cache
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase21\obj\Debug\EjerClase21.csproj.CopyComplete
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase21\obj\Debug\EjerClase21.exe
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase21\obj\Debug\EjerClase21.pdb

@@ -1,0 +1,10 @@
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase28\bin\Debug\EjerClase28.exe.config
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase28\bin\Debug\EjerClase28.exe
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase28\bin\Debug\EjerClase28.pdb
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase28\obj\Debug\EjerClase28.csproj.AssemblyReference.cache
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase28\obj\Debug\EjerClase28.FormContadorPalabras.resources
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase28\obj\Debug\EjerClase28.Properties.Resources.resources
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase28\obj\Debug\EjerClase28.csproj.GenerateResource.cache
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase28\obj\Debug\EjerClase28.csproj.CoreCompileInputs.cache
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase28\obj\Debug\EjerClase28.exe
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase28\obj\Debug\EjerClase28.pdb

@@ -1,0 +1,10 @@
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerTinta-Pluma\bin\Debug\EjerTinta-Pluma.exe.config
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerTinta-Pluma\bin\Debug\EjerTinta-Pluma.exe
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerTinta-Pluma\bin\Debug\EjerTinta-Pluma.pdb
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerTinta-Pluma\bin\Debug\Escritura.dll
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerTinta-Pluma\bin\Debug\Escritura.pdb
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerTinta-Pluma\obj\Debug\EjerTinta-Pluma.csproj.AssemblyReference.cache
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerTinta-Pluma\obj\Debug\EjerTinta-Pluma.csproj.CoreCompileInputs.cache
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerTinta-Pluma\obj\Debug\EjerTinta-Pluma.csproj.CopyComplete
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerTinta-Pluma\obj\Debug\EjerTinta-Pluma.exe
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerTinta-Pluma\obj\Debug\EjerTinta-Pluma.pdb

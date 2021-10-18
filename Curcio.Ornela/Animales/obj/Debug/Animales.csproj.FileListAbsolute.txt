@@ -1,0 +1,12 @@
+C:\Users\orne_\source\repos\Curcio.Ornela\Animales\obj\Debug\Animales.csproj.AssemblyReference.cache
+C:\Users\orne_\source\repos\Curcio.Ornela\Animales\obj\Debug\Animales.csproj.CoreCompileInputs.cache
+C:\Users\orne_\source\repos\Curcio.Ornela\Animales\bin\Debug\Animales.dll
+C:\Users\orne_\source\repos\Curcio.Ornela\Animales\bin\Debug\Animales.pdb
+C:\Users\orne_\source\repos\Curcio.Ornela\Animales\obj\Debug\Animales.dll
+C:\Users\orne_\source\repos\Curcio.Ornela\Animales\obj\Debug\Animales.pdb
+C:\Users\orne_\source\repos\Progra y Labo II\Curcio.Ornela\Animales\bin\Debug\Animales.dll
+C:\Users\orne_\source\repos\Progra y Labo II\Curcio.Ornela\Animales\bin\Debug\Animales.pdb
+C:\Users\orne_\source\repos\Progra y Labo II\Curcio.Ornela\Animales\obj\Debug\Animales.csproj.AssemblyReference.cache
+C:\Users\orne_\source\repos\Progra y Labo II\Curcio.Ornela\Animales\obj\Debug\Animales.csproj.CoreCompileInputs.cache
+C:\Users\orne_\source\repos\Progra y Labo II\Curcio.Ornela\Animales\obj\Debug\Animales.dll
+C:\Users\orne_\source\repos\Progra y Labo II\Curcio.Ornela\Animales\obj\Debug\Animales.pdb

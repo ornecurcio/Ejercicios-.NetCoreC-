@@ -1,0 +1,10 @@
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerParaleloSobrecarga\bin\Debug\EjerParaleloSobrecarga.exe.config
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerParaleloSobrecarga\bin\Debug\EjerParaleloSobrecarga.exe
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerParaleloSobrecarga\bin\Debug\EjerParaleloSobrecarga.pdb
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerParaleloSobrecarga\obj\Debug\EjerParaleloSobrecarga.csproj.AssemblyReference.cache
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerParaleloSobrecarga\obj\Debug\EjerParaleloSobrecarga.csproj.CoreCompileInputs.cache
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerParaleloSobrecarga\obj\Debug\EjerParaleloSobrecarga.exe
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerParaleloSobrecarga\obj\Debug\EjerParaleloSobrecarga.pdb
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerParaleloSobrecarga\bin\Debug\Entidades.dll
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerParaleloSobrecarga\bin\Debug\Entidades.pdb
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerParaleloSobrecarga\obj\Debug\EjerParaleloSobrecarga.csproj.CopyComplete

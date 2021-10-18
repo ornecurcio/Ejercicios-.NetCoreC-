@@ -1,0 +1,6 @@
+C:\Users\orne_\source\repos\Curcio.Ornela\Moneda\bin\Debug\Moneda.dll
+C:\Users\orne_\source\repos\Curcio.Ornela\Moneda\bin\Debug\Moneda.pdb
+C:\Users\orne_\source\repos\Curcio.Ornela\Moneda\obj\Debug\Billetes.csproj.AssemblyReference.cache
+C:\Users\orne_\source\repos\Curcio.Ornela\Moneda\obj\Debug\Billetes.csproj.CoreCompileInputs.cache
+C:\Users\orne_\source\repos\Curcio.Ornela\Moneda\obj\Debug\Moneda.dll
+C:\Users\orne_\source\repos\Curcio.Ornela\Moneda\obj\Debug\Moneda.pdb

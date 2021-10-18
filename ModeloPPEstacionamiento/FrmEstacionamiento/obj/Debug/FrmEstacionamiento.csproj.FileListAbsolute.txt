@@ -1,0 +1,13 @@
+C:\Users\orne_\source\repos\ModeloPPEstacionamiento\FrmEstacionamiento\obj\Debug\FrmEstacionamiento.csproj.AssemblyReference.cache
+C:\Users\orne_\source\repos\ModeloPPEstacionamiento\FrmEstacionamiento\obj\Debug\FrmEstacionamiento.FrmEstacionamiento.resources
+C:\Users\orne_\source\repos\ModeloPPEstacionamiento\FrmEstacionamiento\obj\Debug\FrmEstacionamiento.Properties.Resources.resources
+C:\Users\orne_\source\repos\ModeloPPEstacionamiento\FrmEstacionamiento\obj\Debug\FrmEstacionamiento.csproj.GenerateResource.cache
+C:\Users\orne_\source\repos\ModeloPPEstacionamiento\FrmEstacionamiento\obj\Debug\FrmEstacionamiento.csproj.CoreCompileInputs.cache
+C:\Users\orne_\source\repos\ModeloPPEstacionamiento\FrmEstacionamiento\bin\Debug\FrmEstacionamiento.exe.config
+C:\Users\orne_\source\repos\ModeloPPEstacionamiento\FrmEstacionamiento\bin\Debug\FrmEstacionamiento.exe
+C:\Users\orne_\source\repos\ModeloPPEstacionamiento\FrmEstacionamiento\bin\Debug\FrmEstacionamiento.pdb
+C:\Users\orne_\source\repos\ModeloPPEstacionamiento\FrmEstacionamiento\bin\Debug\EntidadesEstacionamientoFramework.dll
+C:\Users\orne_\source\repos\ModeloPPEstacionamiento\FrmEstacionamiento\bin\Debug\EntidadesEstacionamientoFramework.pdb
+C:\Users\orne_\source\repos\ModeloPPEstacionamiento\FrmEstacionamiento\obj\Debug\FrmEstacionamiento.csproj.CopyComplete
+C:\Users\orne_\source\repos\ModeloPPEstacionamiento\FrmEstacionamiento\obj\Debug\FrmEstacionamiento.exe
+C:\Users\orne_\source\repos\ModeloPPEstacionamiento\FrmEstacionamiento\obj\Debug\FrmEstacionamiento.pdb

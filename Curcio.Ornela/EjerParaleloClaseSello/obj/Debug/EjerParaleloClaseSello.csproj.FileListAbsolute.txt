@@ -1,0 +1,7 @@
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerParaleloClaseSello\bin\Debug\EjerParaleloClaseSello.exe.config
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerParaleloClaseSello\bin\Debug\EjerParaleloClaseSello.exe
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerParaleloClaseSello\bin\Debug\EjerParaleloClaseSello.pdb
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerParaleloClaseSello\obj\Debug\EjerParaleloClaseSello.csproj.AssemblyReference.cache
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerParaleloClaseSello\obj\Debug\EjerParaleloClaseSello.csproj.CoreCompileInputs.cache
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerParaleloClaseSello\obj\Debug\EjerParaleloClaseSello.exe
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerParaleloClaseSello\obj\Debug\EjerParaleloClaseSello.pdb

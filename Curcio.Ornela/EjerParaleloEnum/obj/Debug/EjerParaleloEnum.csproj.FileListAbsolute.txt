@@ -1,0 +1,7 @@
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerParaleloEnum\bin\Debug\EjerParaleloEnum.exe.config
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerParaleloEnum\bin\Debug\EjerParaleloEnum.exe
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerParaleloEnum\bin\Debug\EjerParaleloEnum.pdb
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerParaleloEnum\obj\Debug\EjerParaleloEnum.csproj.AssemblyReference.cache
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerParaleloEnum\obj\Debug\EjerParaleloEnum.csproj.CoreCompileInputs.cache
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerParaleloEnum\obj\Debug\EjerParaleloEnum.exe
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerParaleloEnum\obj\Debug\EjerParaleloEnum.pdb

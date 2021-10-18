@@ -1,0 +1,7 @@
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase14\bin\Debug\EjerClase14.exe.config
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase14\bin\Debug\EjerClase14.exe
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase14\bin\Debug\EjerClase14.pdb
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase14\obj\Debug\EjerClase14.csproj.CoreCompileInputs.cache
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase14\obj\Debug\EjerClase14.exe
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase14\obj\Debug\EjerClase14.pdb
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase14\obj\Debug\EjerClase14.csproj.AssemblyReference.cache

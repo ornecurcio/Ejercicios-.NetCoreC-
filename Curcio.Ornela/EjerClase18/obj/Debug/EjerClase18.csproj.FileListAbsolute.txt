@@ -1,0 +1,11 @@
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase18\obj\Debug\EjerClase18.csproj.AssemblyReference.cache
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase18\obj\Debug\EjerClase18.csproj.CoreCompileInputs.cache
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase18\bin\Debug\EjerClase18.exe.config
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase18\bin\Debug\EjerClase18.exe
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase18\bin\Debug\EjerClase18.pdb
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase18\bin\Debug\EjerClase14.exe
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase18\bin\Debug\EjerClase14.pdb
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase18\bin\Debug\EjerClase14.exe.config
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase18\obj\Debug\EjerClase18.csproj.CopyComplete
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase18\obj\Debug\EjerClase18.exe
+C:\Users\orne_\source\repos\Curcio.Ornela\EjerClase18\obj\Debug\EjerClase18.pdb

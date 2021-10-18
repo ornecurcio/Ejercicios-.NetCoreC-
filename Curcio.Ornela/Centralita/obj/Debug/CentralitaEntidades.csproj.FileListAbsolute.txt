@@ -1,0 +1,6 @@
+C:\Users\orne_\source\repos\Progra y Labo II\Curcio.Ornela\Centralita\bin\Debug\Centralita.dll
+C:\Users\orne_\source\repos\Progra y Labo II\Curcio.Ornela\Centralita\bin\Debug\Centralita.pdb
+C:\Users\orne_\source\repos\Progra y Labo II\Curcio.Ornela\Centralita\obj\Debug\CentralitaEntidades.csproj.AssemblyReference.cache
+C:\Users\orne_\source\repos\Progra y Labo II\Curcio.Ornela\Centralita\obj\Debug\CentralitaEntidades.csproj.CoreCompileInputs.cache
+C:\Users\orne_\source\repos\Progra y Labo II\Curcio.Ornela\Centralita\obj\Debug\Centralita.dll
+C:\Users\orne_\source\repos\Progra y Labo II\Curcio.Ornela\Centralita\obj\Debug\Centralita.pdb

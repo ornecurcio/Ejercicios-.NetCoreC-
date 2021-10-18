@@ -1,0 +1,20 @@
+C:\Users\orne_\source\repos\Curcio.Ornela\ModeloParcial1Mascotas\obj\Debug\ModeloParcial1Mascotas.csproj.CoreCompileInputs.cache
+C:\Users\orne_\source\repos\Curcio.Ornela\ModeloParcial1Mascotas\bin\Debug\ModeloParcial1Mascotas.exe.config
+C:\Users\orne_\source\repos\Curcio.Ornela\ModeloParcial1Mascotas\bin\Debug\ModeloParcial1Mascotas.exe
+C:\Users\orne_\source\repos\Curcio.Ornela\ModeloParcial1Mascotas\bin\Debug\ModeloParcial1Mascotas.pdb
+C:\Users\orne_\source\repos\Curcio.Ornela\ModeloParcial1Mascotas\bin\Debug\Animales.dll
+C:\Users\orne_\source\repos\Curcio.Ornela\ModeloParcial1Mascotas\bin\Debug\Animales.pdb
+C:\Users\orne_\source\repos\Curcio.Ornela\ModeloParcial1Mascotas\obj\Debug\ModeloParcial1Mascotas.csproj.AssemblyReference.cache
+C:\Users\orne_\source\repos\Curcio.Ornela\ModeloParcial1Mascotas\obj\Debug\ModeloParcial1Mascotas.csproj.CopyComplete
+C:\Users\orne_\source\repos\Curcio.Ornela\ModeloParcial1Mascotas\obj\Debug\ModeloParcial1Mascotas.exe
+C:\Users\orne_\source\repos\Curcio.Ornela\ModeloParcial1Mascotas\obj\Debug\ModeloParcial1Mascotas.pdb
+C:\Users\orne_\source\repos\Progra y Labo II\Curcio.Ornela\ModeloParcial1Mascotas\bin\Debug\ModeloParcial1Mascotas.exe.config
+C:\Users\orne_\source\repos\Progra y Labo II\Curcio.Ornela\ModeloParcial1Mascotas\bin\Debug\ModeloParcial1Mascotas.exe
+C:\Users\orne_\source\repos\Progra y Labo II\Curcio.Ornela\ModeloParcial1Mascotas\bin\Debug\ModeloParcial1Mascotas.pdb
+C:\Users\orne_\source\repos\Progra y Labo II\Curcio.Ornela\ModeloParcial1Mascotas\bin\Debug\Animales.dll
+C:\Users\orne_\source\repos\Progra y Labo II\Curcio.Ornela\ModeloParcial1Mascotas\bin\Debug\Animales.pdb
+C:\Users\orne_\source\repos\Progra y Labo II\Curcio.Ornela\ModeloParcial1Mascotas\obj\Debug\ModeloParcial1Mascotas.csproj.AssemblyReference.cache
+C:\Users\orne_\source\repos\Progra y Labo II\Curcio.Ornela\ModeloParcial1Mascotas\obj\Debug\ModeloParcial1Mascotas.csproj.CoreCompileInputs.cache
+C:\Users\orne_\source\repos\Progra y Labo II\Curcio.Ornela\ModeloParcial1Mascotas\obj\Debug\ModeloParcial1Mascotas.csproj.CopyComplete
+C:\Users\orne_\source\repos\Progra y Labo II\Curcio.Ornela\ModeloParcial1Mascotas\obj\Debug\ModeloParcial1Mascotas.exe
+C:\Users\orne_\source\repos\Progra y Labo II\Curcio.Ornela\ModeloParcial1Mascotas\obj\Debug\ModeloParcial1Mascotas.pdb
