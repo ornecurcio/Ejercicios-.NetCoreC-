@@ -1,0 +1,6 @@
+C:\Users\orne_\OneDrive\Documentos\----PROGRAMACION INFORMATICA----\Programacion y Laboratorio II\ComiqueriaApp\EntidadesComiqueria\bin\Debug\EntidadesComiqueria.dll
+C:\Users\orne_\OneDrive\Documentos\----PROGRAMACION INFORMATICA----\Programacion y Laboratorio II\ComiqueriaApp\EntidadesComiqueria\bin\Debug\EntidadesComiqueria.pdb
+C:\Users\orne_\OneDrive\Documentos\----PROGRAMACION INFORMATICA----\Programacion y Laboratorio II\ComiqueriaApp\EntidadesComiqueria\obj\Debug\EntidadesComiqueria.csproj.AssemblyReference.cache
+C:\Users\orne_\OneDrive\Documentos\----PROGRAMACION INFORMATICA----\Programacion y Laboratorio II\ComiqueriaApp\EntidadesComiqueria\obj\Debug\EntidadesComiqueria.csproj.CoreCompileInputs.cache
+C:\Users\orne_\OneDrive\Documentos\----PROGRAMACION INFORMATICA----\Programacion y Laboratorio II\ComiqueriaApp\EntidadesComiqueria\obj\Debug\EntidadesComiqueria.dll
+C:\Users\orne_\OneDrive\Documentos\----PROGRAMACION INFORMATICA----\Programacion y Laboratorio II\ComiqueriaApp\EntidadesComiqueria\obj\Debug\EntidadesComiqueria.pdb
