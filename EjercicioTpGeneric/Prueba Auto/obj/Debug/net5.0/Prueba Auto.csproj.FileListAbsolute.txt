@@ -1,0 +1,19 @@
+C:\Users\orne_\source\repos\Progra y Labo II\EjercicioTpGeneric\Prueba Auto\obj\Debug\net5.0\Prueba Auto.csproj.AssemblyReference.cache
+C:\Users\orne_\source\repos\Progra y Labo II\EjercicioTpGeneric\Prueba Auto\obj\Debug\net5.0\Prueba Auto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\orne_\source\repos\Progra y Labo II\EjercicioTpGeneric\Prueba Auto\obj\Debug\net5.0\Prueba Auto.AssemblyInfoInputs.cache
+C:\Users\orne_\source\repos\Progra y Labo II\EjercicioTpGeneric\Prueba Auto\obj\Debug\net5.0\Prueba Auto.AssemblyInfo.cs
+C:\Users\orne_\source\repos\Progra y Labo II\EjercicioTpGeneric\Prueba Auto\obj\Debug\net5.0\Prueba Auto.csproj.CoreCompileInputs.cache
+C:\Users\orne_\source\repos\Progra y Labo II\EjercicioTpGeneric\Prueba Auto\bin\Debug\net5.0\Prueba Auto.exe
+C:\Users\orne_\source\repos\Progra y Labo II\EjercicioTpGeneric\Prueba Auto\bin\Debug\net5.0\Prueba Auto.deps.json
+C:\Users\orne_\source\repos\Progra y Labo II\EjercicioTpGeneric\Prueba Auto\bin\Debug\net5.0\Prueba Auto.runtimeconfig.json
+C:\Users\orne_\source\repos\Progra y Labo II\EjercicioTpGeneric\Prueba Auto\bin\Debug\net5.0\Prueba Auto.runtimeconfig.dev.json
+C:\Users\orne_\source\repos\Progra y Labo II\EjercicioTpGeneric\Prueba Auto\bin\Debug\net5.0\Prueba Auto.dll
+C:\Users\orne_\source\repos\Progra y Labo II\EjercicioTpGeneric\Prueba Auto\bin\Debug\net5.0\ref\Prueba Auto.dll
+C:\Users\orne_\source\repos\Progra y Labo II\EjercicioTpGeneric\Prueba Auto\bin\Debug\net5.0\Prueba Auto.pdb
+C:\Users\orne_\source\repos\Progra y Labo II\EjercicioTpGeneric\Prueba Auto\bin\Debug\net5.0\Entidades.dll
+C:\Users\orne_\source\repos\Progra y Labo II\EjercicioTpGeneric\Prueba Auto\bin\Debug\net5.0\Entidades.pdb
+C:\Users\orne_\source\repos\Progra y Labo II\EjercicioTpGeneric\Prueba Auto\obj\Debug\net5.0\Prueba Auto.csproj.CopyComplete
+C:\Users\orne_\source\repos\Progra y Labo II\EjercicioTpGeneric\Prueba Auto\obj\Debug\net5.0\Prueba Auto.dll
+C:\Users\orne_\source\repos\Progra y Labo II\EjercicioTpGeneric\Prueba Auto\obj\Debug\net5.0\ref\Prueba Auto.dll
+C:\Users\orne_\source\repos\Progra y Labo II\EjercicioTpGeneric\Prueba Auto\obj\Debug\net5.0\Prueba Auto.pdb
+C:\Users\orne_\source\repos\Progra y Labo II\EjercicioTpGeneric\Prueba Auto\obj\Debug\net5.0\Prueba Auto.genruntimeconfig.cache
