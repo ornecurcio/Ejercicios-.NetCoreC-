@@ -6130,25 +6130,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ismael\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\orne_\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Entidades_partido_de_futbol_los_sabados\\Entidades\\UnitTesting_Entidades\\UnitTesting_Entidades.csproj",
+      "projectUniqueName": "C:\\Users\\orne_\\source\\repos\\Progra y Labo II\\RompeCocoSab2.0\\UnitTesting_Entidades\\UnitTesting_Entidades.csproj",
       "projectName": "UnitTesting_Entidades",
-      "projectPath": "E:\\Entidades_partido_de_futbol_los_sabados\\Entidades\\UnitTesting_Entidades\\UnitTesting_Entidades.csproj",
-      "packagesPath": "C:\\Users\\Ismael\\.nuget\\packages\\",
-      "outputPath": "E:\\Entidades_partido_de_futbol_los_sabados\\Entidades\\UnitTesting_Entidades\\obj\\",
+      "projectPath": "C:\\Users\\orne_\\source\\repos\\Progra y Labo II\\RompeCocoSab2.0\\UnitTesting_Entidades\\UnitTesting_Entidades.csproj",
+      "packagesPath": "C:\\Users\\orne_\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\orne_\\source\\repos\\Progra y Labo II\\RompeCocoSab2.0\\UnitTesting_Entidades\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Ismael\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\orne_\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -6161,8 +6164,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "E:\\Entidades_partido_de_futbol_los_sabados\\Entidades\\Entidades\\Entidades.csproj": {
-              "projectPath": "E:\\Entidades_partido_de_futbol_los_sabados\\Entidades\\Entidades\\Entidades.csproj"
+            "C:\\Users\\orne_\\source\\repos\\Progra y Labo II\\RompeCocoSab2.0\\Entidades\\Entidades.csproj": {
+              "projectPath": "C:\\Users\\orne_\\source\\repos\\Progra y Labo II\\RompeCocoSab2.0\\Entidades\\Entidades.csproj"
             }
           }
         }
@@ -6209,7 +6212,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
