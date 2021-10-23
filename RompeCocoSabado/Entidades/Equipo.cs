@@ -37,7 +37,7 @@ namespace Entidades
             {
                 if (value is not null)
                 {
-                    
+                    this.estadistica = value; 
                 }
             }
         }
@@ -67,7 +67,8 @@ namespace Entidades
         {
             this.nombreEquipo = nombreEquipo;
             this.entrenador = ent;
-            this.listaJugadores = listJug; 
+            this.listaJugadores = listJug;
+            this.estadistica = new Estadistica(); 
         }
     }
 }

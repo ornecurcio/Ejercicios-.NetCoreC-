@@ -16,7 +16,7 @@ namespace Entidades
             }
             set
             {
-                if(value>-1)
+                if(value>-1&& value<80)
                 {
                     this.cantidadPartidos = value; 
                 }
