@@ -34,22 +34,19 @@ namespace Entidades
             if(this.golesLocal>golesVisitante)
             {
                 this.resultadoEquipoLocal = EResultado.Victoria;
-                equipoLocal.Estadistica.Actualizar(resultadoEquipoLocal, golesLocal, golesVisitante);
                 equipoVisitante.Estadistica.Actualizar(EResultado.Derrota, golesVisitante, golesLocal); 
             }
             else if(this.golesLocal == golesVisitante)
             {
                 this.resultadoEquipoLocal = EResultado.Empate;
-                equipoLocal.Estadistica.Actualizar(resultadoEquipoLocal, golesLocal, golesVisitante);
                 equipoVisitante.Estadistica.Actualizar(EResultado.Empate, golesVisitante, golesLocal);
             }
-            else if (this.golesLocal < golesVisitante)
+            else
             {
                 this.resultadoEquipoLocal = EResultado.Derrota;
-                equipoLocal.Estadistica.Actualizar(resultadoEquipoLocal, golesLocal, golesVisitante);
                 equipoVisitante.Estadistica.Actualizar(EResultado.Victoria, golesVisitante, golesLocal);
             }
-
+            equipoLocal.Estadistica.Actualizar(resultadoEquipoLocal, golesLocal, golesVisitante);
 
         }
     }

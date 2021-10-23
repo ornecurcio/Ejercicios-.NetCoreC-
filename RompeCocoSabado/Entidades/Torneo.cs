@@ -35,14 +35,32 @@ namespace Entidades
         }
         private static void CargarEquipos()
         {
-            listaEquipos.Add(new Equipo("", new Entrenador("",0,0,0,false), new List<Jugador>())); 
+            foreach (Equipo item in listaEquipos)
+            {
+                listaEquipos.Add(item); 
+            }
+            //listaEquipos.Add(new Equipo("", new Entrenador("",0,0,0,false), new List<Jugador>())); 
         }
         private static void CargarPartidos()
-        { 
-           //fixture.Add(new Fecha(0,new Partido()))
+        {
+            foreach (Fecha item in fixture)
+            {
+                fixture.Add(item);
+            }
+            //fixture.Add(new Fecha(0,new Partido()))
         }
         public static void JugarPartido(int nroFecha)
-        { 
+        {
+            foreach (Fecha item in fixture)
+            {
+               if(item.Id==nroFecha)
+                {
+                    foreach (Partido auxItem in item.Partidos)
+                    {
+                        auxItem.SimularPartido(); 
+                    }
+                }
+            }
         }
 
     }
