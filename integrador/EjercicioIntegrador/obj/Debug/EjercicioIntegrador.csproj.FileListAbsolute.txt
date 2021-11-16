@@ -29,3 +29,17 @@ C:\Users\orne_\OneDrive\Documentos\----PROGRAMACION INFORMATICA----\Programacion
 C:\Users\orne_\OneDrive\Documentos\----PROGRAMACION INFORMATICA----\Programacion y Laboratorio II\integrador\EjercicioIntegrador\obj\Debug\EjercicioIntegrador.csproj.CoreCompileInputs.cache
 C:\Users\orne_\OneDrive\Documentos\----PROGRAMACION INFORMATICA----\Programacion y Laboratorio II\integrador\EjercicioIntegrador\obj\Debug\EjercicioIntegrador.exe
 C:\Users\orne_\OneDrive\Documentos\----PROGRAMACION INFORMATICA----\Programacion y Laboratorio II\integrador\EjercicioIntegrador\obj\Debug\EjercicioIntegrador.pdb
+C:\Users\orne_\source\repos\Progra y Labo II\integrador\EjercicioIntegrador\bin\Debug\EjercicioIntegrador.exe.config
+C:\Users\orne_\source\repos\Progra y Labo II\integrador\EjercicioIntegrador\bin\Debug\EjercicioIntegrador.exe
+C:\Users\orne_\source\repos\Progra y Labo II\integrador\EjercicioIntegrador\bin\Debug\EjercicioIntegrador.pdb
+C:\Users\orne_\source\repos\Progra y Labo II\integrador\EjercicioIntegrador\bin\Debug\Entidades.dll
+C:\Users\orne_\source\repos\Progra y Labo II\integrador\EjercicioIntegrador\bin\Debug\Entidades.pdb
+C:\Users\orne_\source\repos\Progra y Labo II\integrador\EjercicioIntegrador\obj\Debug\EjercicioIntegrador.csproj.AssemblyReference.cache
+C:\Users\orne_\source\repos\Progra y Labo II\integrador\EjercicioIntegrador\obj\Debug\EjercicioIntegrador.FormAlta.resources
+C:\Users\orne_\source\repos\Progra y Labo II\integrador\EjercicioIntegrador\obj\Debug\EjercicioIntegrador.FormIntegrador.resources
+C:\Users\orne_\source\repos\Progra y Labo II\integrador\EjercicioIntegrador\obj\Debug\EjercicioIntegrador.Properties.Resources.resources
+C:\Users\orne_\source\repos\Progra y Labo II\integrador\EjercicioIntegrador\obj\Debug\EjercicioIntegrador.csproj.GenerateResource.cache
+C:\Users\orne_\source\repos\Progra y Labo II\integrador\EjercicioIntegrador\obj\Debug\EjercicioIntegrador.csproj.CoreCompileInputs.cache
+C:\Users\orne_\source\repos\Progra y Labo II\integrador\EjercicioIntegrador\obj\Debug\EjercicioIntegrador.csproj.CopyComplete
+C:\Users\orne_\source\repos\Progra y Labo II\integrador\EjercicioIntegrador\obj\Debug\EjercicioIntegrador.exe
+C:\Users\orne_\source\repos\Progra y Labo II\integrador\EjercicioIntegrador\obj\Debug\EjercicioIntegrador.pdb

@@ -28,6 +28,10 @@ namespace Entidades
                 lista.Add((T)planeta);
                 rta = true; 
             }
+            else
+            {
+                throw new NoHayLugarException(); 
+            }
             return rta; 
         }
     }

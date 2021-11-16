@@ -1,0 +1,6 @@
+C:\Users\orne_\source\repos\Progra y Labo II\integrador\Entidades\bin\Debug\Entidades.dll
+C:\Users\orne_\source\repos\Progra y Labo II\integrador\Entidades\bin\Debug\Entidades.pdb
+C:\Users\orne_\source\repos\Progra y Labo II\integrador\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\orne_\source\repos\Progra y Labo II\integrador\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\orne_\source\repos\Progra y Labo II\integrador\Entidades\obj\Debug\Entidades.dll
+C:\Users\orne_\source\repos\Progra y Labo II\integrador\Entidades\obj\Debug\Entidades.pdb

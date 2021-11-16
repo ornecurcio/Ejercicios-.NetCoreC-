@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Entidades; 
 
 namespace EjercicioIntegrador
 {
@@ -19,8 +20,6 @@ namespace EjercicioIntegrador
             this.StartPosition = FormStartPosition.CenterScreen;
         }
 
-
-
          /* 
            1- Crear un objeto de tipo Planeta.
            2- Serializarlo y mostrar en un MessageBox lo sucedido.
@@ -28,7 +27,12 @@ namespace EjercicioIntegrador
          */
         private void btn1_Click(object sender, EventArgs e)
         {
-
+            Planeta ornela = new Planeta(10, "Ornela", 2, 60);
+            if(ornela.SerializarXml())
+            {
+                MessageBox.Show("Serializo Correctamente"); 
+            }
+            richTextBox1.Text = ornela.DeserializarXml(); 
 
         }
 
@@ -42,11 +46,21 @@ namespace EjercicioIntegrador
         */
         private void btn2_Click(object sender, EventArgs e)
         {
+            Planeta ornela = new Planeta(10, "Ornela", 2, 60);
+            Planeta pedro = new Planeta(13, "Pedro", 200, 10);
+            Planeta lucas = new Planeta(18, "Lucas", 40, 20);
+
+            SistemaSolar<Planeta> sistemaSolar = new SistemaSolar<Planeta>(3);
+            sistemaSolar.Agregar(ornela);
+            sistemaSolar.Agregar(pedro);
+            sistemaSolar.Agregar(lucas);
+
+            foreach (Planeta item in sistemaSolar.lista)
+            {
+                richTextBox1.Text += item.ToString();
+            }
 
         }
-
-
-
 
         /*
          1- Crear tres objetos de tipo Planeta.
@@ -56,9 +70,23 @@ namespace EjercicioIntegrador
          */
         private void btn3_Click(object sender, EventArgs e)
         {
+            try
+            {
+                Planeta ornela = new Planeta(10, "Ornela", 2, 60);
+                Planeta pedro = new Planeta(13, "Pedro", 200, 10);
+                Planeta lucas = new Planeta(18, "Lucas", 40, 20);
+
+                SistemaSolar<Planeta> sistemaSolar = new SistemaSolar<Planeta>(2);
+                sistemaSolar.Agregar(ornela);
+                sistemaSolar.Agregar(pedro);
+                sistemaSolar.Agregar(lucas); 
+            }
+            catch(NoHayLugarException ex)
+            {
+                MessageBox.Show(ex.Message); 
+            }
 
         }
-
 
         /*
          * 1-Creo un objeto planeta
@@ -70,11 +98,16 @@ namespace EjercicioIntegrador
 
         private void btn4_Click(object sender, EventArgs e)
         {
-
+            Planeta marte = new Planeta(); 
+            DelegadoPlaneta delegado = HayMuchaGravedad;
+            marte.muchaGravedad += delegado;
+            marte.Gravedad = 35; 
+            //Planeta marte = new Planeta(1, "Marte", 4, 50);
         }
-
-
-
+        private void HayMuchaGravedad(double gravedad)
+        {
+            richTextBox1.Text = $"El planeta tiene mucha gravedad: {gravedad}m/s2"; 
+        }
 
         /*
          1-Crea un Task, creo el método TraerPlanetas():void
@@ -84,10 +117,27 @@ namespace EjercicioIntegrador
          */
         private void btnTraer_Click(object sender, EventArgs e)
         {
-
+            Task tsk = new Task(() => this.TraerPlanetas()); 
+            tsk.Start();
         }
-
-
+        private void TraerPlanetas()
+        {
+            List<Planeta> planetas = new List<Planeta>(); 
+            AccesoDatos datosPlanetas = new AccesoDatos();
+            planetas=datosPlanetas.ObtenerListaPlaneta();
+            if (richTextBox1.InvokeRequired)
+            {
+                Action ac = TraerPlanetas;
+                Invoke(ac);
+            }
+            else
+            {
+                foreach (Planeta item in planetas)
+                {
+                    richTextBox1.Text += item.ToString();
+                }
+            }
+        }
         /*
          1- Invoca al formulario de alta.
 		 2- Si se acepta, se actualiza BD, se agrega a la lista.
@@ -95,7 +145,16 @@ namespace EjercicioIntegrador
          * */
         private void btnAgregar_Click(object sender, EventArgs e)
         {
-
+            List<Planeta> planetas = new List<Planeta>();
+            FormAlta formAlta = new FormAlta(planetas);
+            formAlta.ShowDialog(); 
+            if(formAlta.DialogResult==DialogResult.OK)
+            {
+                foreach (Planeta item in planetas)
+                {
+                    richTextBox1.Text += item.ToString();
+                }
+            }
         }
 
         /*
@@ -105,7 +164,17 @@ namespace EjercicioIntegrador
          * */
         private void btnModificar_Click(object sender, EventArgs e)
         {
-
+            Planeta planetaAModificar = new Planeta(9, "Tierra", 1, 28); 
+            List<Planeta> planetas = new List<Planeta>();
+            FormAlta formAlta = new FormAlta(planetas, planetaAModificar);
+            formAlta.ShowDialog();
+            if (formAlta.DialogResult == DialogResult.OK)
+            {
+                foreach (Planeta item in planetas)
+                {
+                    richTextBox1.Text += item.ToString();
+                }
+            }
         }
 
 
@@ -117,7 +186,17 @@ namespace EjercicioIntegrador
          */
         private void btnEliminar_Click(object sender, EventArgs e)
         {
-
+            Planeta planetaAModificar = new Planeta(9, "Tierra", 1, 28);
+            List<Planeta> planetas = new List<Planeta>();
+            FormAlta formAlta = new FormAlta(planetas, planetaAModificar, true);
+            formAlta.ShowDialog();
+            if (formAlta.DialogResult == DialogResult.OK)
+            {
+                foreach (Planeta item in planetas)
+                {
+                    richTextBox1.Text += item.ToString();
+                }
+            }
         }
 
 

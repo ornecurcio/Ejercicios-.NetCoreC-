@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Planeta xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>10</id>
+  <nombre>Ornela</nombre>
+  <satelites>2</satelites>
+  <gravedad>60</gravedad>
+</Planeta>

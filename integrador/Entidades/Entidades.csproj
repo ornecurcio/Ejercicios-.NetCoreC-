@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccesoDatos.cs" />
     <Compile Include="ISerializable.cs" />
     <Compile Include="NoHayLugarException.cs" />
     <Compile Include="Planeta.cs" />

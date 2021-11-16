@@ -42,9 +42,16 @@ namespace Entidades
         {
             set
             {
-                if(value>30)
+                if(value<30)
                 {
-                    this.gravedad = value; 
+                    this.gravedad = value;
+                }
+                else
+                {
+                    if (muchaGravedad != null)
+                    {
+                        muchaGravedad.Invoke(value);
+                    }
                 }
             }
         }
@@ -105,7 +112,7 @@ namespace Entidades
             return $"ID: {this.id}\n" +
                     $"Nombre: { this.nombre}\n" +
                     $"Satelites: {this.satelites}\n"+
-                    $"Gravedad: {this.gravedad}"; 
+                    $"Gravedad: {this.gravedad}\n"; 
         }
 
 
