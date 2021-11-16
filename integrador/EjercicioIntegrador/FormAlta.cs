@@ -48,7 +48,7 @@ namespace EjercicioIntegrador
             {
                 AgregarPlaneta(); 
             }
-            else if(eliminarPlaneta)
+            else if(this.eliminarPlaneta)
             {
                 EliminarPlaneta();    
             }
