@@ -145,12 +145,11 @@ namespace EjercicioIntegrador
          * */
         private void btnAgregar_Click(object sender, EventArgs e)
         {
-            List<Planeta> planetas = new List<Planeta>();
-            FormAlta formAlta = new FormAlta(planetas);
+            FormAlta formAlta = new FormAlta();
             formAlta.ShowDialog(); 
             if(formAlta.DialogResult==DialogResult.OK)
             {
-                foreach (Planeta item in planetas)
+                foreach (Planeta item in formAlta.Planetas)
                 {
                     richTextBox1.Text += item.ToString();
                 }
@@ -165,12 +164,11 @@ namespace EjercicioIntegrador
         private void btnModificar_Click(object sender, EventArgs e)
         {
             Planeta planetaAModificar = new Planeta(9, "Tierra", 1, 28); 
-            List<Planeta> planetas = new List<Planeta>();
-            FormAlta formAlta = new FormAlta(planetas, planetaAModificar);
+            FormAlta formAlta = new FormAlta(planetaAModificar);
             formAlta.ShowDialog();
             if (formAlta.DialogResult == DialogResult.OK)
             {
-                foreach (Planeta item in planetas)
+                foreach (Planeta item in formAlta.Planetas)
                 {
                     richTextBox1.Text += item.ToString();
                 }
@@ -187,12 +185,11 @@ namespace EjercicioIntegrador
         private void btnEliminar_Click(object sender, EventArgs e)
         {
             Planeta planetaAModificar = new Planeta(9, "Tierra", 1, 28);
-            List<Planeta> planetas = new List<Planeta>();
-            FormAlta formAlta = new FormAlta(planetas, planetaAModificar, true);
+            FormAlta formAlta = new FormAlta(planetaAModificar, true);
             formAlta.ShowDialog();
             if (formAlta.DialogResult == DialogResult.OK)
             {
-                foreach (Planeta item in planetas)
+                foreach (Planeta item in formAlta.Planetas)
                 {
                     richTextBox1.Text += item.ToString();
                 }

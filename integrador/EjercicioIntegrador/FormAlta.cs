@@ -14,39 +14,37 @@ namespace EjercicioIntegrador
     public partial class FormAlta : Form
     {
         List<Planeta> planetas;
-        Planeta planetaAux;
+        Planeta planeta;
         bool eliminarPlaneta; 
-      
+        
+        public List<Planeta> Planetas
+        {
+            get
+            {
+                return this.planetas; 
+            }
+        }
         public FormAlta()
         {
             InitializeComponent();
 
             this.StartPosition = FormStartPosition.CenterScreen;
         }
-        public FormAlta(List<Planeta> planetas):this()
+        public FormAlta(Planeta planetaAux) : this()
         {
-            this.planetas = planetas; 
+            this.txtNombre.Text = planeta.nombre;
+            this.txtSatelites.Text = planeta.satelites.ToString();
+            this.txtGravedad.Text = planeta.gravedad.ToString();
         }
-        public FormAlta(List<Planeta> planetas, Planeta planetaAux) : this(planetas)
+        public FormAlta(Planeta planeta, bool eliminarPlaneta) : this(planeta)
         {
-            this.planetaAux = planetaAux;
-            txtNombre.Text = planetaAux.nombre;
-            txtSatelites.Text = planetaAux.satelites.ToString();
-            txtGravedad.Text = planetaAux.gravedad.ToString(); 
-        }
-        public FormAlta(List<Planeta> planetas, Planeta planetaAux, bool eliminarPlaneta) : this(planetas, planetaAux)
-        {
-            this.planetaAux = planetaAux;
-            txtNombre.Text = planetaAux.nombre;
-            txtSatelites.Text = planetaAux.satelites.ToString();
-            txtGravedad.Text = planetaAux.gravedad.ToString();
             this.eliminarPlaneta = eliminarPlaneta; 
         }
 
         //Recupera los datos de los txtBox y carga el atributo.
         private void btnAceptar_Click(object sender, EventArgs e)
         {
-            if(planetaAux is null)
+            if(this.planeta is null)
             {
                 AgregarPlaneta(); 
             }
@@ -68,11 +66,7 @@ namespace EjercicioIntegrador
                 AccesoDatos listaPlanetas = new AccesoDatos();
                 if (listaPlanetas.AgregarPlaneta(planeta))
                 {
-                    List<Planeta> planetasAux = listaPlanetas.ObtenerListaPlaneta();
-                    foreach (Planeta item in planetasAux)
-                    {
-                        planetas.Add(item);
-                    }
+                    this.planetas = listaPlanetas.ObtenerListaPlaneta();
                     this.DialogResult = DialogResult.OK;
                 }
             }
@@ -83,13 +77,9 @@ namespace EjercicioIntegrador
                     && txtGravedad.Text.All(char.IsDigit) && txtSatelites.Text.All(char.IsDigit))
             {
                 AccesoDatos listaPlanetas = new AccesoDatos();
-                if (listaPlanetas.ModificarPlaneta(planetaAux))
+                if (listaPlanetas.ModificarPlaneta(planeta))
                 {
-                    List<Planeta> planetasAux = listaPlanetas.ObtenerListaPlaneta();
-                    foreach (Planeta item in planetasAux)
-                    {
-                        planetas.Add(item);
-                    }
+                    this.planetas = listaPlanetas.ObtenerListaPlaneta();
                     this.DialogResult = DialogResult.OK;
                 }
             }
@@ -100,13 +90,9 @@ namespace EjercicioIntegrador
                     && txtGravedad.Text.All(char.IsDigit) && txtSatelites.Text.All(char.IsDigit))
             {
                 AccesoDatos listaPlanetas = new AccesoDatos();
-                if (listaPlanetas.EliminarPlaneta(planetaAux.id))
+                if (listaPlanetas.EliminarPlaneta(planeta.id))
                 {
-                    List<Planeta> planetasAux = listaPlanetas.ObtenerListaPlaneta();
-                    foreach (Planeta item in planetasAux)
-                    {
-                        planetas.Add(item);
-                    }
+                    this.planetas = listaPlanetas.ObtenerListaPlaneta();
                     this.DialogResult = DialogResult.OK;
                 }
             }

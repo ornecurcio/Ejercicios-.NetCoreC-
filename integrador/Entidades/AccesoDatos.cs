@@ -170,7 +170,7 @@ namespace Entidades
                 this.comando.Parameters.AddWithValue("@satelites", param.satelites);
                 this.comando.Parameters.AddWithValue("@gravedad", param.gravedad);
 
-                string sql = "UPDATE dbo.planetas";
+                string sql = "UPDATE dbo.planetas ";
                 sql += "SET nombre = @nombre, satelites = @satelites, gravedad = @gravedad ";
                 sql += "WHERE id = @id";
 
@@ -204,8 +204,9 @@ namespace Entidades
             {
                 rta = false;
             }
-            catch (SqlException)
+            catch (SqlException ex)
             {
+                Console.WriteLine(ex.Message); 
                 rta = false;
             }
             catch (Exception e)
