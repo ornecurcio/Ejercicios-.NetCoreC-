@@ -9,7 +9,7 @@ namespace Entidades
     public class CartucheraLlenaException:Exception
     {
         public CartucheraLlenaException()
-            : base("Mensaje de error personalizado de MiClaseException")
+            : base("La cartuchera esta llena")
         {
         }
 

@@ -50,10 +50,7 @@ namespace Entidades
             }
         }
 
-        //public static AgregarLista(List<T> lista, T objecto)
-        //{
-
-        //}
+        
         public override string ToString()
         {
             return base.ToString();

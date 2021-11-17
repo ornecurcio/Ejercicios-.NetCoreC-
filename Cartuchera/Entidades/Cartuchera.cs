@@ -25,8 +25,9 @@ namespace Entidades
     public class Cartuchera<T> where T:Utiles
     {
         protected int capacidad;
-        protected List<T> elementos; 
-
+        protected List<T> elementos;
+        public delegate void DelegadoEventoPrecio(object sender);
+        public event DelegadoEventoPrecio EventoPrecio;
         public Cartuchera()
         {
             this.elementos = new List<T>(); 
@@ -77,7 +78,15 @@ namespace Entidades
         {
             if(!(c is null && u is null) && c.elementos.Count < c.capacidad)
             {
-                c.elementos.Add(u); 
+                c.elementos.Add(u);
+            }
+            if (c is Cartuchera<Goma>)
+            {
+                
+            }
+            if (c.PrecioTotal > 85)
+            {
+                c.EventoPrecio(c);
             }
             return c; 
         }

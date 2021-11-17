@@ -118,7 +118,7 @@ namespace Entidades
 
             try
             {
-                string sql = "INSERT INTO dbo.usuario (cadena, entero, flotante) VALUES(";
+                string sql = "INSERT INTO dbo.usuario (nombre, edad) VALUES(";
                 sql = sql + "'" + param.nombre + "'," + param.edad.ToString() + "," + ")";
 
                 this.comando = new SqlCommand();
@@ -168,7 +168,7 @@ namespace Entidades
                 this.comando.Parameters.AddWithValue("@nombre", param.nombre);
                 this.comando.Parameters.AddWithValue("@edad", param.edad);
 
-                string sql = "UPDATE tabla_uno ";
+                string sql = "UPDATE dbo.usuario ";
                 sql += "SET nombre = @nombre, edad = @edad";
                 sql += "WHERE id = @id";
 

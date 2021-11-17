@@ -9,9 +9,9 @@ namespace Entidades
     public delegate string DelegadoDeMiFuncion(string cadena);
     public class ClaseEvento
     {
-        //Usuario usuario = new Usuario(); 
+        //Usuario usuario = new Usuario();
         //DelegadoDeMiFuncion MiDelegado = new DelegadoDeMiFuncion();
-        //public DelegadoDeMiFuncion Evento_ToString; 
+        //public DelegadoDeMiFuncion Evento_ToString;
 
 
     }

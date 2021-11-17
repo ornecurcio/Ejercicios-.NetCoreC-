@@ -8,22 +8,30 @@ namespace Entidades
 {
     public class SerializacionException :Exception
     {
-        private static string mensajeError;
-
-        static SerializacionException()
-        {
-            mensajeError = "Error en la serializacion";
-        }
-
-        public SerializacionException() : this(SerializacionException.mensajeError)
-        {
-        }
-        public SerializacionException(string mensaje) : base(mensaje)
+        public SerializacionException()
+             : base("Error en la serializacion")
         {
         }
 
-        public SerializacionException(Exception innerException) : base(SerializacionException.mensajeError, innerException)
+        public SerializacionException(string mensaje)
+            : base(mensaje)
         {
+        }
+
+        public SerializacionException(string mensaje, Exception innerException)
+            : base(mensaje, innerException)
+        {
+        }
+
+        public SerializacionException(string mensaje, Exception innerException, string origenError)
+            : base(mensaje, innerException)
+        {
+            base.Source = origenError;
+        }
+
+        public override string ToString()
+        {
+            return "Mensaje de error: " + base.Message + "\nOrigen: " + base.Source;
         }
     }
 }

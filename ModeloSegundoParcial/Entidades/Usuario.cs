@@ -17,49 +17,55 @@ namespace Entidades
 
         public override string ToString()
         {
-            return $"ID: {this.id}\n" +
+            return  $"ID: {this.id}\n" +
                     $"Nombre: { this.nombre}\n" +
                     $"Edad: {this.edad}\n"; 
         }
 
-        //public bool SerializarAJason(string ruta, Usuario obj)
-        //{
-        //    try
-        //    {
-        //        if (obj is null)
-        //        {
-        //            throw new Exception("objeto nulo");
-        //        }
-        //        JsonSerializerOptions jsonSerializerOptions = new JsonSerializerOptions { Converters = { new JsonStringEnumConverter() } };
-        //        jsonSerializerOptions.WriteIndented = true;
+        public bool SerializarAJason(string ruta)
+        {
+            bool rta = true;
+            try
+            {
+                if (this is null)
+                {
+                    rta = false; 
+                    throw new Exception("objeto nulo");
+                }
+                JsonSerializerOptions jsonSerializerOptions = new JsonSerializerOptions { Converters = { new JsonStringEnumConverter() } };
+                jsonSerializerOptions.WriteIndented = true;
 
-        //        string objetoJson = JsonSerializer.Serialize(obj, jsonSerializerOptions);
+                string objetoJson = JsonSerializer.Serialize(this, jsonSerializerOptions);
 
-        //        File.WriteAllText(ruta, objetoJson);
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        throw new SerializacionException(ex.Message);
-        //    }
-        //}
+                File.WriteAllText(ruta, objetoJson);
+            }
+            catch (Exception ex)
+            {
+                rta = false;
+                throw new SerializacionException(ex.Message);
+            }
+            return rta; 
+        }
 
-        //bool DeserealizarDesdeJson(string ruta) 
-        //{
-        //    bool rta = false; 
-        //    try
-        //    {
-        //        string objetoJson = File.ReadAllText(ruta);
-        //        JsonSerializerOptions jsonSerializerOptions = new JsonSerializerOptions { Converters = { new JsonStringEnumConverter(JsonNamingPolicy.CamelCase) } };
-        //        jsonSerializerOptions.WriteIndented = true;
+        bool DeserealizarDesdeJson(string ruta, out Usuario usuario)
+        {
+            bool rta = true;
+            try
+            {
+                string objetoJson = File.ReadAllText(ruta);
+                JsonSerializerOptions jsonSerializerOptions = new JsonSerializerOptions { Converters = { new JsonStringEnumConverter(JsonNamingPolicy.CamelCase) } };
+                jsonSerializerOptions.WriteIndented = true;
 
-        //        Usuario objetoDeserealizado = JsonSerializer.Deserialize(objetoJson, jsonSerializerOptions);
-                
-        //        return objetoDeserealizado;
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        throw new SerializacionException(ex);
-        //    }
-        //}
+                Usuario objetoDeserealizado = JsonSerializer.Deserialize(objetoJson, jsonSerializerOptions);
+
+                usuario = objetoDeserealizado;
+            }
+            catch (Exception ex)
+            {
+                rta = false; 
+                throw new SerializacionException(ex.Message);
+            }
+            return rta; 
+        }
     }
 }
