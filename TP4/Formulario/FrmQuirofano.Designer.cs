@@ -106,6 +106,7 @@ namespace Formulario
             this.Name = "FrmQuirofano";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmQuirofano";
+            this.Load += new System.EventHandler(this.FrmQuirofano_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

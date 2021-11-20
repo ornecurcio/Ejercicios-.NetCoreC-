@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Entidades
@@ -13,6 +14,7 @@ namespace Entidades
         private static List<Cirujano> cirujanos;
         private static List<Cirugia> cirugias;
         private static Estadistica estadistica;
+        private static CancellationTokenSource cts;
         #endregion
 
         #region Constructor
@@ -24,17 +26,18 @@ namespace Entidades
                 cirujanos = new List<Cirujano>();
                 cirugias = new List<Cirugia>();
                 estadistica = new Estadistica();
+                cts = new CancellationTokenSource();
                 AccesoDatos datos = new AccesoDatos();
 
                 pacientes = datos.ObtenerListaPacientes();
                 cirujanos = datos.ObtenerListaCirujanos();
-                cirugias = datos.ObtenerListaCirugias(); 
+                //cirugias = datos.ObtenerListaCirugias(); 
                 //string ruta = Archivo.GenerarRuta("Pacientes.json");
                 //pacientes = SerializacionAJason.DeserealizarDesdeJson<List<Paciente>>(ruta);
                 //ruta = Archivo.GenerarRuta("Cirujanos.json");
                 //cirujanos = SerializacionAJason.DeserealizarDesdeJson<List<Cirujano>>(ruta);
-                //string ruta = Archivo.GenerarRuta("Cirugias.json");
-                //cirugias = SerializacionAJason.DeserealizarDesdeJson<List<Cirugia>>(ruta);
+                string ruta = Archivo.GenerarRuta("Cirugias.json");
+                cirugias = SerializacionAJason.DeserealizarDesdeJson<List<Cirugia>>(ruta);
                 Hospital.ActualizarEstadistica(cirugias);
                 datos.ActualizarEstadisticaHospital(Hospital.Estadistica); 
             }
@@ -46,6 +49,20 @@ namespace Entidades
         #endregion
 
         #region Propiedades
+        public static CancellationTokenSource Cts
+        {
+
+            get
+            {
+                if (cts is null || cts.IsCancellationRequested)
+                {
+                    cts = new CancellationTokenSource();
+                }
+
+                return cts;
+            }
+
+        }
         public static List<Paciente> Pacientes
         {
             get

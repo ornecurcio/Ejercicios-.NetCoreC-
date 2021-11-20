@@ -11,6 +11,7 @@ namespace Entidades
         #region Atributos
         private ERol rol;
         private Estadistica estadistica;
+
         #endregion
 
         #region Constructores

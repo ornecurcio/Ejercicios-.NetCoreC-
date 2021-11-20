@@ -2,23 +2,29 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Entidades
 {
+    public delegate void DelegadoCirugia(); 
     public class Cirugia
     {
         #region Atributos
+
         private Cirujano cirujano;
         private Paciente paciente;
         private EPatologia patologia;
         private EProcedimiento procedimiento; 
         private DateTime fecha;
+        bool operado; 
+        public event DelegadoCirugia operar; 
         #endregion
-
+       
         #region Constructores
-        public Cirugia()
-        { }
+        public Cirugia():this(new Paciente(),DateTime.Now,new Cirujano(),EPatologia.Columna,EProcedimiento.Artrodecis)
+        {
+        }
         /// <summary>
         /// Constructor con parametros
         /// </summary>
@@ -35,10 +41,16 @@ namespace Entidades
             this.cirujano = cirujano;
             this.patologia = patologia;
             this.procedimiento = procedimiento;
-           
+            operar += paciente.PacienteOperado;
+            operar += CirugiaRealizada;
+            operar += CargarEnBaseDatos;
         }
         #endregion
-
+        public void CargarEnBaseDatos()
+        {
+            AccesoDatos accesoDatos = new AccesoDatos();
+            accesoDatos.AgregarCirugia(this); 
+        }
         #region Propiedades
         public Cirujano Cirujano
         {
@@ -74,6 +86,7 @@ namespace Entidades
             set
             {
                 this.patologia = value; 
+
             }
         }
         public Paciente Paciente
@@ -102,5 +115,18 @@ namespace Entidades
             }
         }
         #endregion
+        public override string ToString()
+        {
+            return $"Paciente: {paciente.Apellido},{paciente.Nombre} -- Cirujano {cirujano.Apellido} -- Patologia: {patologia}";
+        }
+        public void CirugiaRealizada()
+        {
+            this.operado = true;
+        }
+        public void RealizarOperacion()
+        {
+            this.operar.Invoke();
+            Thread.Sleep(2000);
+        }
     }
 }
