@@ -43,14 +43,13 @@ namespace Entidades
             this.procedimiento = procedimiento;
             operar += paciente.PacienteOperado;
             operar += CirugiaRealizada;
+            operar += ActualizarEstadisticaHospital;
+            operar += ActulizarEstadisticaCirujano;
             operar += CargarEnBaseDatos;
+            
         }
         #endregion
-        public void CargarEnBaseDatos()
-        {
-            AccesoDatos accesoDatos = new AccesoDatos();
-            accesoDatos.AgregarCirugia(this); 
-        }
+        
         #region Propiedades
         public Cirujano Cirujano
         {
@@ -122,11 +121,30 @@ namespace Entidades
         public void CirugiaRealizada()
         {
             this.operado = true;
+            Hospital.CirugiasPendientes.Remove(this); 
+        }
+        
+        public void ActualizarEstadisticaHospital()
+        {
+            Hospital.Estadistica.ActualizarPatologia(this.patologia);
+            Hospital.Estadistica.ActualizarProcedimiento(this.procedimiento);
+        }
+        public void ActulizarEstadisticaCirujano()
+        {
+            cirujano.Estadistica.ActualizarPatologia(this.patologia);
+            cirujano.Estadistica.ActualizarProcedimiento(this.procedimiento); 
+        }
+        public void CargarEnBaseDatos()
+        {
+            AccesoDatos accesoDatos = new AccesoDatos();
+            accesoDatos.AgregarCirugia(this);
+            accesoDatos.ActualizarEstadisticaCirujano(this.cirujano.Estadistica, this.cirujano);
         }
         public void RealizarOperacion()
         {
             this.operar.Invoke();
-            Thread.Sleep(2000);
+            Thread.Sleep(1000);
         }
+
     }
 }

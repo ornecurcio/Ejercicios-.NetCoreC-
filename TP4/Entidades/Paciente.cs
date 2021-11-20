@@ -11,7 +11,6 @@ namespace Entidades
         #region Atributo
         private List<EPatologia> patologias;
         #endregion
-        //TODO:VOID CREAR METODO QUE PONGA EN NULL PATOLOGIAS(); 
         #region Constructor
         public Paciente() : this("sin nombre", "sin apellido", 0,1, new List<EPatologia>())
         { }

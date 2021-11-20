@@ -15,25 +15,17 @@ namespace Formulario
     public partial class FrmQuirofano : Form
     {
         List<Cirugia> cirugias = new List<Cirugia>();
-        CancellationTokenSource ctsSource;
-        CancellationToken cstToken; 
         public FrmQuirofano()
         {
             InitializeComponent();
-            foreach(Cirugia item in Hospital.Cirugias)
+            foreach (Cirugia item in Hospital.CirugiasPendientes)
             {
-                this.cirugias.Add(item); 
+                this.cirugias.Add(item);
             }
         }
         //TODO ACTUALIZAR DATA PARA SACAR CIRUGIAS 
         private void btnRealizarCirugias_Click(object sender, EventArgs e)
         {
-            // Task tsk = new Task(() => 
-            //{ 
-
-            //});
-            // tsk.Start(Hospital.Cts.Token);
-        
             Task.Run(() => ActualizarLista(Hospital.Cts.Token));
             btnDetenerQuirofano.Enabled = true;
             btnRealizarCirugias.Enabled = false; 
@@ -53,12 +45,12 @@ namespace Formulario
         
         private void FrmQuirofano_Load(object sender, EventArgs e)
         {
-            lstPacientes.DataSource = cirugias;
+            lstPacientes.DataSource = Hospital.CirugiasPendientes;
             btnDetenerQuirofano.Enabled = false; 
         }
         private void ActualizarLista(CancellationToken cts)
         {
-            foreach (Cirugia item in Hospital.Cirugias)
+            foreach (Cirugia item in cirugias)
             {
                 if (cts.IsCancellationRequested)
                     return;
@@ -66,7 +58,6 @@ namespace Formulario
                 if (item.Paciente.Patologia is not null)
                 {
                     item.RealizarOperacion();
-                    cirugias.Remove(item);
                 }
                 
                 if (this.lstPacientes.InvokeRequired) // DA TRUE CUANDO NO ES DEL HILO PRINCIPAL 
@@ -74,14 +65,14 @@ namespace Formulario
                     this.lstPacientes.BeginInvoke((MethodInvoker)delegate ()
                     {
                         lstPacientes.DataSource = null;
-                        lstPacientes.DataSource = cirugias;
+                        lstPacientes.DataSource = Hospital.CirugiasPendientes;
                     });
                     Thread.Sleep(2000);
                 }
                 else
                 {
                     lstPacientes.DataSource = null;
-                    lstPacientes.DataSource = cirugias;
+                    lstPacientes.DataSource = Hospital.CirugiasPendientes;
                 }
             }
         }

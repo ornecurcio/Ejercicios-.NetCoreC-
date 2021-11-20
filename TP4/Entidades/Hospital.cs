@@ -12,9 +12,12 @@ namespace Entidades
         #region Atributos
         private static List<Paciente> pacientes;
         private static List<Cirujano> cirujanos;
-        private static List<Cirugia> cirugias;
+        private static List<Cirugia> cirugiasPendientes;
+        private static List<Cirugia> cirugiasRealizadas;
         private static Estadistica estadistica;
         private static CancellationTokenSource cts;
+        private static AccesoDatos datos; 
+
         #endregion
 
         #region Constructor
@@ -24,21 +27,31 @@ namespace Entidades
             {
                 pacientes = new List<Paciente>();
                 cirujanos = new List<Cirujano>();
-                cirugias = new List<Cirugia>();
+                cirugiasPendientes = new List<Cirugia>();
+                cirugiasRealizadas = new List<Cirugia>(); 
                 estadistica = new Estadistica();
                 cts = new CancellationTokenSource();
-                AccesoDatos datos = new AccesoDatos();
+                datos = new AccesoDatos();
 
                 pacientes = datos.ObtenerListaPacientes();
                 cirujanos = datos.ObtenerListaCirujanos();
-                //cirugias = datos.ObtenerListaCirugias(); 
+                cirugiasRealizadas = datos.ObtenerListaCirugias(); 
                 //string ruta = Archivo.GenerarRuta("Pacientes.json");
                 //pacientes = SerializacionAJason.DeserealizarDesdeJson<List<Paciente>>(ruta);
+                //foreach (Paciente item in pacientes)
+                //{
+                //    Random rdn = new Random();
+                //    int numero = rdn.Next(1, 4); 
+                //    if(item.Patologia.Count==0)
+                //    {
+                //        datos.AgregarPatologiaPaciente(item, (EPatologia)Enum.Parse(typeof(EPatologia),numero.ToString()));
+                //    }
+                //}
                 //ruta = Archivo.GenerarRuta("Cirujanos.json");
                 //cirujanos = SerializacionAJason.DeserealizarDesdeJson<List<Cirujano>>(ruta);
                 string ruta = Archivo.GenerarRuta("Cirugias.json");
-                cirugias = SerializacionAJason.DeserealizarDesdeJson<List<Cirugia>>(ruta);
-                Hospital.ActualizarEstadistica(cirugias);
+                cirugiasPendientes = SerializacionAJason.DeserealizarDesdeJson<List<Cirugia>>(ruta);
+                Hospital.ActualizarEstadistica(cirugiasRealizadas);
                 datos.ActualizarEstadisticaHospital(Hospital.Estadistica); 
             }
             catch (Exception ex)
@@ -91,17 +104,31 @@ namespace Entidades
                 }
             }
         }
-        public static List<Cirugia> Cirugias
+        public static List<Cirugia> CirugiasPendientes
         {
             get
             {
-                return cirugias;
+                return cirugiasPendientes;
             }
             set
             {
                 if (value is not null)
                 {
-                    cirugias = value;
+                    cirugiasPendientes = value;
+                }
+            }
+        }
+        public static List<Cirugia> CirugiasRealizadas
+        {
+            get
+            {
+                return cirugiasRealizadas;
+            }
+            set
+            {
+                if (value is not null)
+                {
+                    cirugiasRealizadas = value;
                 }
             }
         }
@@ -136,7 +163,7 @@ namespace Entidades
         public static void SerializarCirugias()
         {
             string ruta = Archivo.GenerarRuta("Cirugias.json");
-            SerializacionAJason.SerializarAJason(ruta, cirugias);
+            SerializacionAJason.SerializarAJason(ruta, cirugiasPendientes);
         }
         /// <summary>
         /// Serializa a Archivo Json una lista de cirujanos 
@@ -151,17 +178,15 @@ namespace Entidades
         /// </summary>
         /// <param name="aux"> cirugia a ser agregada</param>
         /// <returns>TRUE si se cargo con exito</returns>
-        public static bool CargarCirugia(Cirugia aux)
+        public static bool CargarCirugiaPendiente(Cirugia aux)
         {
             try
             {
                 if (aux is not null)
                 {
-                    cirugias.Add(aux);
-                    estadistica.ActualizarPatologia(aux.Patologia);
-                    estadistica.ActualizarProcedimiento(aux.Procedimiento);
+                    cirugiasPendientes.Add(aux);
                     SerializarCirugias();
-                    SerializarCirujanos();
+                    //SerializarCirujanos();
                     return true; 
                 }
                 return false; 
@@ -188,6 +213,7 @@ namespace Entidades
                     }
                 }
                 cirujanos.Add(aux);
+                datos.AgregarCirujano(aux); 
                 SerializarCirujanos();
                 return true; 
             }
@@ -198,17 +224,23 @@ namespace Entidades
         /// </summary>
         /// <param name="aux">paciente a actualizar</param>
         /// <returns>TRUE si pudo modificarlo</returns>
-        public static bool ActualizarPaciente(Paciente aux)
+        public static bool ActualizarPacientePatologia(Paciente aux, EPatologia patologia)
         {
-            foreach (Paciente item in Pacientes)
+            //TODO ESTO AGREGA UNA PATOLOGIA CUANDO AGREGO UNA PATOLOGIA AL PACIENTE, VER CAMBIAR EN LA BASE DE DATOS
+            //foreach (Paciente item in Pacientes)
+            //{
+            //    if (aux == item)
+            //    {
+            //        Pacientes.Remove(item);
+            //        Pacientes.Add(aux);
+            //        SerializarPacientes();
+            //        //datos.ModificarPaciente(item); 
+            //    }
+            //}
+            if (aux is not null)
             {
-                if (aux == item)
-                {
-                    Pacientes.Remove(item);
-                    Pacientes.Add(aux);
-                    SerializarPacientes(); 
-                    return true;
-                }
+                datos.AgregarPatologiaPaciente(aux, patologia);
+                return true; 
             }
             return false;
         }
@@ -229,6 +261,11 @@ namespace Entidades
                     }
                 }
                 Pacientes.Add(aux);
+                datos.AgregarPaciente(aux);
+                foreach (EPatologia item in aux.Patologia)
+                {
+                    datos.AgregarPatologiaPaciente(aux, item); 
+                }
                 SerializarPacientes();
                 return true;
             }
@@ -254,7 +291,7 @@ namespace Entidades
         public static List<Cirugia> CirugiasXPatologia(EPatologia patologia)
         {
             List<Cirugia> cirugiasXPatologia = new List<Cirugia>();
-            foreach (Cirugia item in Hospital.cirugias)
+            foreach (Cirugia item in Hospital.cirugiasRealizadas)
             {
                 if(item.Patologia == patologia)
                 {
@@ -271,7 +308,7 @@ namespace Entidades
         public static List<Cirugia> CirugiasXProcedimiento(EProcedimiento procedimiento)
         {
             List<Cirugia> cirugiasXProcedimiento = new List<Cirugia>();
-            foreach (Cirugia item in Hospital.cirugias)
+            foreach (Cirugia item in Hospital.cirugiasRealizadas)
             {
                 if (item.Procedimiento == procedimiento)
                 {
@@ -288,7 +325,7 @@ namespace Entidades
         public static List<Cirugia> CirugiasXCirujano(Cirujano cirujano)
         {
             List<Cirugia> cirugiasXCirujano = new List<Cirugia>();
-            foreach (Cirugia item in Hospital.cirugias)
+            foreach (Cirugia item in Hospital.cirugiasRealizadas)
             {
                 if (item.Cirujano == cirujano)
                 {
@@ -306,7 +343,7 @@ namespace Entidades
         public static List<Cirugia> CirugiasXProcedimientoYCirujano(EProcedimiento procedimiento, Cirujano cirujano)
         {
             List<Cirugia> cirugiasXProcedimientoYCirujano = new List<Cirugia>();
-            foreach (Cirugia item in Hospital.cirugias)
+            foreach (Cirugia item in Hospital.cirugiasRealizadas)
             {
                 if (item.Procedimiento == procedimiento && item.Cirujano==cirujano)
                 {
@@ -324,7 +361,7 @@ namespace Entidades
         public static List<Cirugia> CirugiasXPatologiaYCirujano(EPatologia patologia, Cirujano cirujano)
         {
             List<Cirugia> cirugiasXPatologiaYCirujano = new List<Cirugia>();
-            foreach (Cirugia item in Hospital.cirugias)
+            foreach (Cirugia item in Hospital.cirugiasRealizadas)
             {
                 if (item.Patologia == patologia && item.Cirujano == cirujano)
                 {
