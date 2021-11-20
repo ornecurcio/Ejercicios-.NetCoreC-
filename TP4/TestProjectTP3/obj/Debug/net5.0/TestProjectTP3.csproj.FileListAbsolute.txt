@@ -209,13 +209,13 @@ C:\Users\orne_\source\repos\TpS\TP4\TestProjectTP3\obj\Debug\net5.0\ref\TestProj
 C:\Users\orne_\source\repos\TpS\TP4\TestProjectTP3\obj\Debug\net5.0\TestProjectTP3.pdb
 C:\Users\orne_\source\repos\TpS\TP4\TestProjectTP3\obj\Debug\net5.0\TestProjectTP3.genruntimeconfig.cache
 C:\Users\orne_\source\repos\Progra y Labo II\TP4\TestProjectTP3\bin\Debug\net5.0\CoverletSourceRootsMapping
-C:\Users\orne_\source\repos\Progra y Labo II\TP4\TestProjectTP3\bin\Debug\net5.0\testhost.exe
 C:\Users\orne_\source\repos\Progra y Labo II\TP4\TestProjectTP3\bin\Debug\net5.0\testhost.dll
+C:\Users\orne_\source\repos\Progra y Labo II\TP4\TestProjectTP3\bin\Debug\net5.0\testhost.exe
+C:\Users\orne_\source\repos\Progra y Labo II\TP4\TestProjectTP3\bin\Debug\net5.0\Microsoft.TestPlatform.PlatformAbstractions.dll
 C:\Users\orne_\source\repos\Progra y Labo II\TP4\TestProjectTP3\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 C:\Users\orne_\source\repos\Progra y Labo II\TP4\TestProjectTP3\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
 C:\Users\orne_\source\repos\Progra y Labo II\TP4\TestProjectTP3\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
 C:\Users\orne_\source\repos\Progra y Labo II\TP4\TestProjectTP3\bin\Debug\net5.0\Microsoft.TestPlatform.AdapterUtilities.dll
-C:\Users\orne_\source\repos\Progra y Labo II\TP4\TestProjectTP3\bin\Debug\net5.0\Microsoft.TestPlatform.PlatformAbstractions.dll
 C:\Users\orne_\source\repos\Progra y Labo II\TP4\TestProjectTP3\bin\Debug\net5.0\TestProjectTP3.deps.json
 C:\Users\orne_\source\repos\Progra y Labo II\TP4\TestProjectTP3\bin\Debug\net5.0\TestProjectTP3.runtimeconfig.json
 C:\Users\orne_\source\repos\Progra y Labo II\TP4\TestProjectTP3\bin\Debug\net5.0\TestProjectTP3.runtimeconfig.dev.json

@@ -129,10 +129,6 @@ namespace Entidades
             try
             {
                 comando = new SqlCommand();
-                /*SELECT * FROM dbo.Cirujano INNER JOIN CirujanoRol
-                ON Cirujano.dni = CirujanoRol.IdCirujano INNER JOIN EstadisticaCirujano
-                On EstadisticaCirujano.IdCirujano = Cirujano.DNI and EstadisticaCirujano.IdRol = CirujanoRol.IdRol
-                 Order by Cirujano.DNI asc*/
                 string sql = "SELECT * FROM dbo.Cirujano INNER JOIN CirujanoRol " +
                     "ON Cirujano.dni = CirujanoRol.IdCirujano INNER JOIN EstadisticaCirujano " +
                     "On EstadisticaCirujano.IdCirujano = Cirujano.DNI and EstadisticaCirujano.IdRol = CirujanoRol.IdRol " +
@@ -148,17 +144,16 @@ namespace Entidades
                 while (lector.Read())
                 {
                     Cirujano item = new Cirujano();
-                    item.Dni = double.Parse(lector["Dni"].ToString());
+                    item.Dni = double.Parse(lector["DNI"].ToString());
                     item.Apellido = lector["Apellido"].ToString();
                     item.Nombre = lector["Nombre"].ToString();
                     item.Edad = lector.GetInt32("Edad");
-                    item.Rol = (ERol)Enum.Parse(typeof(ERol), lector["IdRol"].ToString());
-                    item.Estadistica = new Estadistica(); 
+                    item.Rol = (ERol)Enum.Parse(typeof(ERol), lector[5].ToString());
                     item.Estadistica.CantColumna = lector.GetInt32("Columna");
                     item.Estadistica.CantMiembroSuperior = lector.GetInt32("MiembroSuperior");
                     item.Estadistica.CantMiembroInferior = lector.GetInt32("MiembroInferior");
                     item.Estadistica.CantPelvis = lector.GetInt32("Pelvis");
-                    item.Estadistica.CantArtrodecis = lector.GetInt32("Artrodesis");
+                    item.Estadistica.CantArtrodecis = lector.GetInt32("Artrodecis");
                     item.Estadistica.CantOsteotomia = lector.GetInt32("Osteotomia");
                     item.Estadistica.CantOsteodesis = lector.GetInt32("Osteodesis");
                     item.Estadistica.CantRAFI = lector.GetInt32("RAFI");
@@ -170,9 +165,9 @@ namespace Entidades
                 lector.Close();
 
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                Console.WriteLine(ex.ToString());
+                throw; 
             }
             finally
             {
@@ -469,7 +464,8 @@ namespace Entidades
                 comando = new SqlCommand();
                 string sql = 
                 "INSERT INTO dbo.Cirujano (dni, apellido, nombre, edad) VALUES( " + param.Dni.ToString() + ",'" + param.Apellido + 
-                "', '" + param.Nombre + "'," + param.Edad.ToString() + ") " 
+                "', '" + param.Nombre + "'," + param.Edad.ToString() + ") INSERT INTO dbo.CirujanoRol (idCirujano, idRol) VALUES(" 
+                + param.Dni.ToString() + ", "+ ((int)param.Rol).ToString() + ") "
                 + "INSERT INTO dbo.EstadisticaCirujano (IdCirujano, IdRol, columna, miembroSuperior, miembroInferior, pelvis, " 
                 + "RAFI, ReduccionCerrada, Osteotomia, Artrodecis, Osteodesis, Yeso) " + "VALUES(" + param.Dni.ToString() + ", " 
                 + ((int)param.Rol).ToString() + ", " + param.Estadistica.CantColumna.ToString() + "," + param.Estadistica.CantMiembroSuperior.ToString() 

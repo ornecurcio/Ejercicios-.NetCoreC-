@@ -106,6 +106,7 @@ C:\Users\orne_\source\repos\Progra y Labo II\TP4\Formulario\obj\Debug\net5.0-win
 C:\Users\orne_\source\repos\Progra y Labo II\TP4\Formulario\obj\Debug\net5.0-windows\Formulario.FrmIngresoDatos.resources
 C:\Users\orne_\source\repos\Progra y Labo II\TP4\Formulario\obj\Debug\net5.0-windows\Formulario.Form1.resources
 C:\Users\orne_\source\repos\Progra y Labo II\TP4\Formulario\obj\Debug\net5.0-windows\Formulario.FrmMostrarEstadistica.resources
+C:\Users\orne_\source\repos\Progra y Labo II\TP4\Formulario\obj\Debug\net5.0-windows\Formulario.FrmQuirofano.resources
 C:\Users\orne_\source\repos\Progra y Labo II\TP4\Formulario\obj\Debug\net5.0-windows\Formulario.FrmSubMenu.resources
 C:\Users\orne_\source\repos\Progra y Labo II\TP4\Formulario\obj\Debug\net5.0-windows\Formulario.csproj.GenerateResource.cache
 C:\Users\orne_\source\repos\Progra y Labo II\TP4\Formulario\obj\Debug\net5.0-windows\Formulario.GeneratedMSBuildEditorConfig.editorconfig
@@ -117,4 +118,3 @@ C:\Users\orne_\source\repos\Progra y Labo II\TP4\Formulario\obj\Debug\net5.0-win
 C:\Users\orne_\source\repos\Progra y Labo II\TP4\Formulario\obj\Debug\net5.0-windows\ref\Formulario.dll
 C:\Users\orne_\source\repos\Progra y Labo II\TP4\Formulario\obj\Debug\net5.0-windows\Formulario.pdb
 C:\Users\orne_\source\repos\Progra y Labo II\TP4\Formulario\obj\Debug\net5.0-windows\Formulario.genruntimeconfig.cache
-C:\Users\orne_\source\repos\Progra y Labo II\TP4\Formulario\obj\Debug\net5.0-windows\Formulario.FrmQuirofano.resources

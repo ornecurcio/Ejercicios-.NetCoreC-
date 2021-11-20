@@ -15,7 +15,7 @@ namespace Entidades
         #endregion
 
         #region Constructores
-        public Cirujano():this("", "", 0, 0, ERol.Cirujano,null)
+        public Cirujano():this("", "", 0, 0, ERol.Cirujano,new Estadistica())
         {
         }
         /// <summary>
