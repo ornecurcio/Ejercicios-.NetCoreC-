@@ -138,7 +138,7 @@ namespace Entidades
         {
             AccesoDatos accesoDatos = new AccesoDatos();
             accesoDatos.AgregarCirugia(this);
-            accesoDatos.ActualizarEstadisticaCirujano(this.cirujano.Estadistica, this.cirujano);
+            accesoDatos.ActualizarEstadisticaCirujano(this.cirujano);
         }
         public void RealizarOperacion()
         {

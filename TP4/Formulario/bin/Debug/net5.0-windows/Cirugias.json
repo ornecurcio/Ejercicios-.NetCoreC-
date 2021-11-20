@@ -361,5 +361,38 @@
       "Edad": 67
     },
     "Fecha": "2021-11-20T15:56:45.4501957-03:00"
+  },
+  {
+    "Cirujano": {
+      "Rol": "Cirujano",
+      "Estadistica": {
+        "CantColumna": 0,
+        "CantMiembroSuperior": 0,
+        "CantMiembroInferior": 1,
+        "CantPelvis": 0,
+        "CantRAFI": 0,
+        "CantReduccionCerrada": 0,
+        "CantOsteotomia": 0,
+        "CantArtrodecis": 0,
+        "CantOsteodesis": 0,
+        "CantYeso": 1
+      },
+      "Nombre": "Ornela",
+      "Apellido": "Curcio",
+      "Dni": 34707599,
+      "Edad": 31
+    },
+    "Procedimiento": "Artrodecis",
+    "Patologia": "MiembroInferior",
+    "Paciente": {
+      "Patologia": [
+        "MiembroInferior"
+      ],
+      "Nombre": "Shandeigh",
+      "Apellido": "Gresser",
+      "Dni": 70590438,
+      "Edad": 81
+    },
+    "Fecha": "2021-11-20T16:16:21.7675535-03:00"
   }
 ]

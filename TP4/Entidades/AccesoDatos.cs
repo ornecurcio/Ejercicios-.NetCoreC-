@@ -240,7 +240,7 @@ namespace Entidades
         #endregion
 
         #region Insert
-        public bool ActualizarEstadisticaCirujano(Estadistica param, Cirujano cirujano)
+        public bool ActualizarEstadisticaCirujano(Cirujano param)
         {
             bool rta = true;
 
@@ -248,16 +248,16 @@ namespace Entidades
             {
                 comando = new SqlCommand();
 
-                comando.Parameters.AddWithValue("@dni", cirujano.Dni);
-                comando.Parameters.AddWithValue("@idRol", cirujano.Rol);
+                comando.Parameters.AddWithValue("@dni", param.Dni);
+                comando.Parameters.AddWithValue("@idRol", param.Rol);
 
                 string sql = "DELETE FROM dbo.EstadisticaCirujano WHERE IdCirujano = @dni AND IdRol = @idRol " +
                     "INSERT INTO dbo.EstadisticaCirujano (IdCirujano, IdRol, columna, miembroSuperior, miembroInferior, pelvis, " +
                     "RAFI, ReduccionCerrada, Osteotomia, Artrodecis, Osteodesis, Yeso) " +
-                    "VALUES(" + cirujano.Dni.ToString() +", "+ ((int)cirujano.Rol).ToString()+", " + param.CantColumna.ToString() + "," + param.CantMiembroSuperior.ToString() + "," +
-                              param.CantMiembroInferior.ToString() + "," + param.CantPelvis.ToString() + "," +
-                              param.CantRAFI.ToString() + "," + param.CantReduccionCerrada.ToString() + "," + param.CantOsteotomia.ToString() + "," +
-                              param.CantArtrodecis.ToString() + "," + param.CantOsteodesis.ToString() + "," + param.CantYeso.ToString() + ")";
+                    "VALUES(" + param.Dni.ToString() +", "+ ((int)param.Rol).ToString()+", " + param.Estadistica.CantColumna.ToString() + "," + param.Estadistica.CantMiembroSuperior.ToString() + "," +
+                              param.Estadistica.CantMiembroInferior.ToString() + "," + param.Estadistica.CantPelvis.ToString() + "," +
+                              param.Estadistica.CantRAFI.ToString() + "," + param.Estadistica.CantReduccionCerrada.ToString() + "," + param.Estadistica.CantOsteotomia.ToString() + "," +
+                              param.Estadistica.CantArtrodecis.ToString() + "," + param.Estadistica.CantOsteodesis.ToString() + "," + param.Estadistica.CantYeso.ToString() + ")";
 
 
                 comando.CommandType = CommandType.Text;
