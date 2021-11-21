@@ -36,13 +36,13 @@ namespace Formulario
             subMenu.ShowDialog();
         }
 
-        private void btnEstadistica_Click(object sender, EventArgs e)
+        private void btnVerListado_Click(object sender, EventArgs e)
         {
             FrmEstadistica estadistica = new FrmEstadistica(false, true);
             estadistica.ShowDialog();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnEstadisticaHospital_Click(object sender, EventArgs e)
         {
             FrmEstadisticaHospital estadistica = new FrmEstadisticaHospital();
 

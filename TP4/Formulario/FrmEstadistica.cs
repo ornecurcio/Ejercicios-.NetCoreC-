@@ -22,24 +22,25 @@ namespace Formulario
         //el medico, o patologias de los pacientes
         private void FrmEstadistica_Load(object sender, EventArgs e)
         {
-            if (esMedico)
-            {
-                this.LoadInicial();
-                CargarCmbLista(cmbTotalCirugias, Hospital.Cirujanos);
-                txtTotalCirugias.Visible = true;
-            }
-            else if (servicio)
+            //if (esMedico)
+            //{
+            //    this.LoadInicial();
+            //    CargarCmbLista(cmbTotalCirugias, Hospital.Cirujanos);
+            //    txtTotalCirugias.Visible = true;
+            //}
+            //else
+            if (servicio)
             {
                 this.LoadInicial();
                 cmbTotalCirugias.Visible = false;
                 txtTotalCirugias.Text = Hospital.CirugiasRealizadas.Count.ToString();
                 txtTotalCirugias.Enabled = false;
             }
-            else
-            {
-                this.LoadPaciente();
-                btnPatologias.Text = "Pacientes por Patologia";
-            }
+            //else
+            //{
+            //    this.LoadPaciente();
+            //    btnPatologias.Text = "Pacientes por Patologia";
+            //}
         }
 
         private void lblTotalCirugias_Click(object sender, EventArgs e)

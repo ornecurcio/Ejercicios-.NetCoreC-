@@ -112,7 +112,6 @@ namespace Formulario
                     cmbPatologia.DataSource = null;
                     cmbPatologia.DataSource = aux.Patologia;
                 }
-                
             }
         }
         //se chequean los datos ingresados y se genera una instancia de una nueva cirugia pendiente
@@ -126,7 +125,7 @@ namespace Formulario
                 Enum.TryParse(cmbProcedimiento.Text, out EProcedimiento auxPr);
                 //TODO : ARREGLAR ESTADISTICA
                 Cirugia aux = new Cirugia((Paciente)cmbPacientevsCirujano.SelectedItem, DateTime.Now,
-                                  (Cirujano)cmbApellidoNombre.SelectedItem, auxP, auxPr);
+                                          (Cirujano)cmbApellidoNombre.SelectedItem, auxP, auxPr);
                 Hospital.CargarCirugiaPendiente(aux);
 
                 this.Close();
@@ -135,7 +134,7 @@ namespace Formulario
                      Enum.TryParse(cmbPatologia.Text, out EPatologia auxP))
             {
                 Paciente aux = (Paciente)cmbApellidoNombre.SelectedItem;
-                //aux.Patologia.Add(auxP);
+                aux.Patologia.Add(auxP);
                 Hospital.ActualizarPacientePatologia(aux, auxP);
 
                 this.Close();

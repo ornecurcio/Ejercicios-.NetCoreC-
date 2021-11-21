@@ -196,6 +196,7 @@ namespace Entidades
                 throw new Exception("Fallo en cargar cirugia", ex); 
             }
         }
+
         /// <summary>
         /// Agrega un nuevo cirujano a la lista si el mismo no existe 
         /// </summary>
