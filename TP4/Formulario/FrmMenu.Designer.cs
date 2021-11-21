@@ -81,7 +81,7 @@ namespace Formulario
             // 
             // btnVerListado
             // 
-            this.btnVerListado.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnVerListado.BackColor = System.Drawing.Color.CornflowerBlue;
             this.btnVerListado.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnVerListado.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnVerListado.Location = new System.Drawing.Point(58, 374);
@@ -94,7 +94,7 @@ namespace Formulario
             // 
             // btnEstadisticaHospital
             // 
-            this.btnEstadisticaHospital.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnEstadisticaHospital.BackColor = System.Drawing.Color.RoyalBlue;
             this.btnEstadisticaHospital.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnEstadisticaHospital.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnEstadisticaHospital.Location = new System.Drawing.Point(58, 532);

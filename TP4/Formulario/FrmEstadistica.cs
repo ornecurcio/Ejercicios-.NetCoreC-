@@ -208,11 +208,11 @@ namespace Formulario
             //    FrmMostrarEstadistica mostrarEstadistica = new FrmMostrarEstadistica((Cirujano)cmbTotalCirugias.SelectedItem, auxPr);
             //    mostrarEstadistica.ShowDialog();
             //}
-            if (!esMedico && !servicio && cmbCirugiaXPatologia.CanSelect && Enum.TryParse(cmbCirugiaXPatologia.Text, out auxP))
-            {
-                FrmMostrarEstadistica mostrarEstadistica = new FrmMostrarEstadistica(auxP);
-                mostrarEstadistica.ShowDialog();
-            }
+            //if (!esMedico && !servicio && cmbCirugiaXPatologia.CanSelect && Enum.TryParse(cmbCirugiaXPatologia.Text, out auxP))
+            //{
+            //    FrmMostrarEstadistica mostrarEstadistica = new FrmMostrarEstadistica(auxP);
+            //    mostrarEstadistica.ShowDialog();
+            //}
         }
         //Oculta los cmb de cirujanos y de hospital
         //private void LoadPaciente()

@@ -8,27 +8,27 @@ namespace Formulario
     public partial class FrmMostrarEstadistica : Form
     {
         List<Cirugia> cirugias;
-        List<Paciente> pacientes;
+        //List<Paciente> pacientes;
         bool hayPacientes; 
         public FrmMostrarEstadistica()
         {
             InitializeComponent();
             cirugias = new List<Cirugia>();
-            pacientes = new List<Paciente>();
+            //pacientes = new List<Paciente>();
         }
         //Sobrecarga Constructor recibe una patologia y se mostraran los pacientes que tengan esa patologia
-        public FrmMostrarEstadistica(EPatologia patologia) : this()
-        {
-            lblDescripcion.Text = $"Pacientes por {patologia}";
-            foreach (Paciente item in Hospital.Pacientes)
-            {
-                if(item.Patologia.Contains(patologia))
-                {
-                    pacientes.Add(item);
-                }
-            }
-            hayPacientes = true; 
-        }
+        //public FrmMostrarEstadistica(EPatologia patologia) : this()
+        //{
+        //    lblDescripcion.Text = $"Pacientes por {patologia}";
+        //    foreach (Paciente item in Hospital.Pacientes)
+        //    {
+        //        if(item.Patologia.Contains(patologia))
+        //        {
+        //            pacientes.Add(item);
+        //        }
+        //    }
+        //    hayPacientes = true; 
+        //}
         //Sobrecarga, se ingresa desde el hospital y se muestran todas las cirugias
         public FrmMostrarEstadistica(bool esServicio):this()
         {
@@ -57,49 +57,50 @@ namespace Formulario
             }
         }
         //Sobrecarga, se selecciona un cirujano y muestra todas las cirugias del mismo
-        public FrmMostrarEstadistica(Cirujano cirujano) : this()
-        {
-            lblDescripcion.Text = $"Cirugias de {cirujano}";
-            cirugias = Hospital.CirugiasXCirujano(cirujano);
-        }
+        //public FrmMostrarEstadistica(Cirujano cirujano) : this()
+        //{
+        //    lblDescripcion.Text = $"Cirugias de {cirujano}";
+        //    cirugias = Hospital.CirugiasXCirujano(cirujano);
+        //}
         //Sobrecarga, se selecciona un cirujano y se muestra las cirugias con esa patologia
-        public FrmMostrarEstadistica(Cirujano cirujano, EPatologia patologia) : this()
-        {
-            lblDescripcion.Text = $"Cirugias de {cirujano} \n{patologia}";
-            cirugias = Hospital.CirugiasXPatologiaYCirujano(patologia,cirujano);
-        }
+        //public FrmMostrarEstadistica(Cirujano cirujano, EPatologia patologia) : this()
+        //{
+        //    lblDescripcion.Text = $"Cirugias de {cirujano} \n{patologia}";
+        //    cirugias = Hospital.CirugiasXPatologiaYCirujano(patologia,cirujano);
+        //}
         //Sobrecarga, se selecciona un cirujano y se muestra las cirugias con ese procedimiento
-        public FrmMostrarEstadistica(Cirujano cirujano, EProcedimiento procedimiento) : this()
-        {
-            lblDescripcion.Text = $"Cirugias de {cirujano} \n{procedimiento}";
-            cirugias = Hospital.CirugiasXProcedimientoYCirujano(procedimiento, cirujano);
-        }
+        //public FrmMostrarEstadistica(Cirujano cirujano, EProcedimiento procedimiento) : this()
+        //{
+        //    lblDescripcion.Text = $"Cirugias de {cirujano} \n{procedimiento}";
+        //    cirugias = Hospital.CirugiasXProcedimientoYCirujano(procedimiento, cirujano);
+        //}
         private void FrmMostrarEstadistica_Load(object sender, EventArgs e)
         {
+            this.Text = "Cirugias Realizadas"; 
             if (cirugias.Count > 0)
             {
                 dataEstadistica.DataSource = null;
                 dataEstadistica.DataSource = cirugias;
                 dataEstadistica.Columns[4].DefaultCellStyle.Format = "dd/MM/yyyy";
             }
-            if(pacientes.Count>0)
-            {
-                dataEstadistica.DataSource = null;
-                dataEstadistica.DataSource = pacientes;
-            }
+            //if(pacientes.Count>0)
+            //{
+            //    dataEstadistica.DataSource = null;
+            //    dataEstadistica.DataSource = pacientes;
+            //}
         }
         //genera un archivo Json con los filtros aplicados
         private void btnExportarAJson_Click(object sender, EventArgs e)
         {
             string ruta = Archivo.GenerarRuta(lblDescripcion.Text + ".json");
-            if (hayPacientes)
-            {
-                SerializacionAJason.SerializarAJason(ruta, pacientes);
-            }
-            else
-            {
+            //if (hayPacientes)
+            //{
+            //    SerializacionAJason.SerializarAJason(ruta, pacientes);
+            //}
+            //else
+            //{
                 SerializacionAJason.SerializarAJason(ruta, cirugias);
-            }
+            //}
 
             MessageBox.Show("Archivo generado con exito", "Exito", MessageBoxButtons.OK, MessageBoxIcon.Information);
             this.Close();
@@ -109,14 +110,14 @@ namespace Formulario
         {
             string ruta = Archivo.GenerarRuta(lblDescripcion.Text + ".xml");
 
-            if (hayPacientes)
-            {
-                SerializacionAXml<List<Paciente>>.SerializarAXmlLista(ruta, pacientes);
-            }
-            else
-            {
+            //if (hayPacientes)
+            //{
+            //    SerializacionAXml<List<Paciente>>.SerializarAXmlLista(ruta, pacientes);
+            //}
+            //else
+            //{
                 SerializacionAXml<List<Cirugia>>.SerializarAXmlLista(ruta, cirugias);
-            }
+            //}
             MessageBox.Show("Archivo generado con exito", "Exito", MessageBoxButtons.OK, MessageBoxIcon.Information);
             this.Close();
 

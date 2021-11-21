@@ -123,7 +123,6 @@ namespace Formulario
             {
                 Enum.TryParse(cmbPatologia.Text, out EPatologia auxP);
                 Enum.TryParse(cmbProcedimiento.Text, out EProcedimiento auxPr);
-                //TODO : ARREGLAR ESTADISTICA
                 Cirugia aux = new Cirugia((Paciente)cmbPacientevsCirujano.SelectedItem, DateTime.Now,
                                           (Cirujano)cmbApellidoNombre.SelectedItem, auxP, auxPr);
                 Hospital.CargarCirugiaPendiente(aux);

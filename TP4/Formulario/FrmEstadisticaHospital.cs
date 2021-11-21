@@ -20,51 +20,13 @@ namespace Formulario
 
         private void FrmEstadisticaHospital_Load(object sender, EventArgs e)
         {
+            this.Text = "Servicio de Ortopedia y Traumatologia"; 
             this.rchInfoHospital.Text += Hospital.CargarInfoPacientes();
-            CargarInfoCirujanos();
-            CargarPatologiaPrevalente();
-            CargarProcedimientoPrevalente();
+            this.rchInfoHospital.Text += Hospital.CargarInfoCirujanos();
+            this.rchInfoHospital.Text += Hospital.CargarPatologiaPrevalente();
+            this.rchInfoHospital.Text += Hospital.CargarProcedimientoPrevalente();
             this.rchInfoHospital.Text += Hospital.PocentajeCirugiasCadaMedico(); 
-        }
-
-
-        //TODO: MOVER LOS METODOS A HOSPITAL
-
-        private void CargarInfoCirujanos()
-        {
-            float cantCirujanos = 0;
-            foreach (Cirujano item in Hospital.Cirujanos)
-            {
-                if (item.Rol == ERol.Ayudante)
-                {
-                    cantCirujanos++;
-                } 
-            }
-            float porcentaje = cantCirujanos / Hospital.Cirujanos.Count;
-
-            this.rchInfoHospital.Text += $"Los ayudantes representan el {Math.Round(porcentaje, 2)*100}% de los medicos ";
-            this.rchInfoHospital.Text += $"(Cantidad ayudantes: {cantCirujanos} de {Hospital.Cirujanos.Count}) \n\n";
-        }
-        private void CargarPatologiaPrevalente()
-        {
-            EPatologia aux = Hospital.Estadistica.PatologiaPrevalente();
-            int auxCant = Hospital.Estadistica.CantPatologiaPrevalente();
-
-            float porcentaje = (float)auxCant / Hospital.CirugiasRealizadas.Count; 
-
-            this.rchInfoHospital.Text += $"La patologia mas operada es {aux} con un porcentaje de {Math.Round(porcentaje, 2)*100}% ";
-            this.rchInfoHospital.Text += $"(Cantidad {aux}: {auxCant} de {Hospital.CirugiasRealizadas.Count}) \n\n";
-        }
-        private void CargarProcedimientoPrevalente()
-        {
-            EProcedimiento aux = Hospital.Estadistica.ProcedimientoPrevalente();
-            int auxCant = Hospital.Estadistica.CantProcedimientoPrevalente();
-
-            float porcentaje = (float)auxCant / Hospital.CirugiasRealizadas.Count;
-
-            this.rchInfoHospital.Text += $"El procedimiento mas realizado es {aux} con un porcentaje de {Math.Round(porcentaje, 2) * 100}% ";
-            this.rchInfoHospital.Text += $"(Cantidad {aux}: {auxCant} de {Hospital.CirugiasRealizadas.Count}) \n\n";
-        }
+        }        
         
     }
 }

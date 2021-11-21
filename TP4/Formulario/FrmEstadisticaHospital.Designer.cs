@@ -36,18 +36,22 @@ namespace Formulario
             // lbl_titulo
             // 
             this.lbl_titulo.AutoSize = true;
-            this.lbl_titulo.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbl_titulo.Location = new System.Drawing.Point(37, 18);
+            this.lbl_titulo.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbl_titulo.Location = new System.Drawing.Point(26, 19);
             this.lbl_titulo.Name = "lbl_titulo";
-            this.lbl_titulo.Size = new System.Drawing.Size(377, 32);
+            this.lbl_titulo.Size = new System.Drawing.Size(309, 32);
             this.lbl_titulo.TabIndex = 0;
-            this.lbl_titulo.Text = "Estadisticas generales del Hospital";
+            this.lbl_titulo.Text = "Estadisticas generales";
             // 
             // rchInfoHospital
             // 
-            this.rchInfoHospital.Location = new System.Drawing.Point(37, 72);
+            this.rchInfoHospital.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.rchInfoHospital.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.rchInfoHospital.Location = new System.Drawing.Point(26, 54);
             this.rchInfoHospital.Name = "rchInfoHospital";
-            this.rchInfoHospital.Size = new System.Drawing.Size(715, 366);
+            this.rchInfoHospital.Size = new System.Drawing.Size(753, 416);
             this.rchInfoHospital.TabIndex = 1;
             this.rchInfoHospital.Text = "";
             // 
@@ -55,7 +59,8 @@ namespace Formulario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.ClientSize = new System.Drawing.Size(805, 515);
             this.Controls.Add(this.rchInfoHospital);
             this.Controls.Add(this.lbl_titulo);
             this.Name = "FrmEstadisticaHospital";
