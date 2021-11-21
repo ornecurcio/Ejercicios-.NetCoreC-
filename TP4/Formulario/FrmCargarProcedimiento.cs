@@ -127,8 +127,6 @@ namespace Formulario
                 //TODO : ARREGLAR ESTADISTICA
                 Cirugia aux = new Cirugia((Paciente)cmbPacientevsCirujano.SelectedItem, DateTime.Now,
                                   (Cirujano)cmbApellidoNombre.SelectedItem, auxP, auxPr);
-               // ((Cirujano)cmbApellidoNombre.SelectedItem).Estadistica.ActualizarPatologia(auxP);
-               // ((Cirujano)cmbApellidoNombre.SelectedItem).Estadistica.ActualizarProcedimiento(auxPr);
                 Hospital.CargarCirugiaPendiente(aux);
 
                 this.Close();

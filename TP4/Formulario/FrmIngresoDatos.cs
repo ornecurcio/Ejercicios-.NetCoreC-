@@ -51,7 +51,7 @@ namespace Formulario
                  if(esCirujano && Enum.TryParse(cmbRolPatologia.Text, out ERol auxR))
                  {
                     Hospital.CargarCirujanos(new Cirujano(txtNombre.Text, txtApellido.Text, double.Parse(txtDni.Text), int.Parse(txtEdad.Text),
-                                             auxR, new Estadistica())); 
+                                             auxR)); 
                  }
                  else if(Enum.TryParse(cmbRolPatologia.Text, out EPatologia auxP)) 
                  {

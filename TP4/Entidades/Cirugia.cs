@@ -44,7 +44,7 @@ namespace Entidades
             operar += paciente.PacienteOperado;
             operar += CirugiaRealizada;
             operar += ActualizarEstadisticaHospital;
-            operar += ActulizarEstadisticaCirujano;
+            //operar += ActulizarEstadisticaCirujano;
             operar += CargarEnBaseDatos;
             
         }
@@ -129,16 +129,15 @@ namespace Entidades
             Hospital.Estadistica.ActualizarPatologia(this.patologia);
             Hospital.Estadistica.ActualizarProcedimiento(this.procedimiento);
         }
-        public void ActulizarEstadisticaCirujano()
-        {
-            cirujano.Estadistica.ActualizarPatologia(this.patologia);
-            cirujano.Estadistica.ActualizarProcedimiento(this.procedimiento); 
-        }
+        //public void ActulizarEstadisticaCirujano()
+        //{
+        //    cirujano.Estadistica.ActualizarPatologia(this.patologia);
+        //    cirujano.Estadistica.ActualizarProcedimiento(this.procedimiento); 
+        //}
         public void CargarEnBaseDatos()
         {
             AccesoDatos accesoDatos = new AccesoDatos();
             accesoDatos.AgregarCirugia(this);
-            accesoDatos.ActualizarEstadisticaCirujano(this.cirujano);
         }
         public void RealizarOperacion()
         {

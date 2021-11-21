@@ -22,13 +22,11 @@ namespace Formulario
             if (esMedico)
             {
                 btnAgregar.Text = "Agregar 1 cirugia a Cirugias Pendientes";
-                btnVer.Text = "Ver estadistica de 1 Cirujano";
                 this.Text = "SubMenu Cirujano"; 
             }
             else
             {
                 btnAgregar.Text = "Agregar patologia a 1 Paciente";
-                btnVer.Text = "Ver pacientes por Patologia";
                 this.Text = "SubMenu Paciente"; 
             }
         }
@@ -36,12 +34,6 @@ namespace Formulario
         {
             FrmCargarProcedimiento cargarProcedimiento = new FrmCargarProcedimiento(esMedico);
             cargarProcedimiento.ShowDialog(); 
-        }
-
-        private void btnVer_Click(object sender, EventArgs e)
-        {
-            FrmEstadistica estadistica = new FrmEstadistica(esMedico, false);
-            estadistica.ShowDialog(); 
         }
 
         private void btnAgregarNuevo_Click(object sender, EventArgs e)

@@ -52,11 +52,11 @@ namespace Formulario
         {
             if (cmbTotalCirugias.CanSelect)
             {
-                int aux = ((Cirujano)cmbTotalCirugias.SelectedItem).Estadistica.CantColumna +
-                 ((Cirujano)cmbTotalCirugias.SelectedItem).Estadistica.CantMiembroSuperior +
-                 ((Cirujano)cmbTotalCirugias.SelectedItem).Estadistica.CantMiembroInferior +
-                 ((Cirujano)cmbTotalCirugias.SelectedItem).Estadistica.CantPelvis;
-                txtTotalCirugias.Text = aux.ToString();
+                //int aux = ((Cirujano)cmbTotalCirugias.SelectedItem).Estadistica.CantColumna +
+                // ((Cirujano)cmbTotalCirugias.SelectedItem).Estadistica.CantMiembroSuperior +
+                // ((Cirujano)cmbTotalCirugias.SelectedItem).Estadistica.CantMiembroInferior +
+                // ((Cirujano)cmbTotalCirugias.SelectedItem).Estadistica.CantPelvis;
+                //txtTotalCirugias.Text = aux.ToString();
             }
         }
         //Al cliquear se habilita el cmb para seleccionar patologia
@@ -94,24 +94,24 @@ namespace Formulario
                             break;
                     }
                 }
-                if (esMedico)
-                {
-                    switch (aux)
-                    {
-                        case EPatologia.Columna:
-                            txtCirugiaXPatologia.Text = ((Cirujano)cmbTotalCirugias.SelectedItem).Estadistica.CantColumna.ToString();
-                            break;
-                        case EPatologia.MiembroSuperior:
-                            txtCirugiaXPatologia.Text = ((Cirujano)cmbTotalCirugias.SelectedItem).Estadistica.CantMiembroSuperior.ToString();
-                            break;
-                        case EPatologia.MiembroInferior:
-                            txtCirugiaXPatologia.Text = ((Cirujano)cmbTotalCirugias.SelectedItem).Estadistica.CantMiembroInferior.ToString();
-                            break;
-                        case EPatologia.Pelvis:
-                            txtCirugiaXPatologia.Text = ((Cirujano)cmbTotalCirugias.SelectedItem).Estadistica.CantPelvis.ToString();
-                            break;
-                    }
-                }
+                //if (esMedico)
+                //{
+                //    switch (aux)
+                //    {
+                //        case EPatologia.Columna:
+                //            txtCirugiaXPatologia.Text = ((Cirujano)cmbTotalCirugias.SelectedItem).Estadistica.CantColumna.ToString();
+                //            break;
+                //        case EPatologia.MiembroSuperior:
+                //            txtCirugiaXPatologia.Text = ((Cirujano)cmbTotalCirugias.SelectedItem).Estadistica.CantMiembroSuperior.ToString();
+                //            break;
+                //        case EPatologia.MiembroInferior:
+                //            txtCirugiaXPatologia.Text = ((Cirujano)cmbTotalCirugias.SelectedItem).Estadistica.CantMiembroInferior.ToString();
+                //            break;
+                //        case EPatologia.Pelvis:
+                //            txtCirugiaXPatologia.Text = ((Cirujano)cmbTotalCirugias.SelectedItem).Estadistica.CantPelvis.ToString();
+                //            break;
+                //    }
+                //}
             }
         }
         //Al clickear se habilita un cmb para elegir procedimiento
@@ -154,31 +154,31 @@ namespace Formulario
                             break;
                     }
                 }
-                if (esMedico)
-                {
-                    switch (aux)
-                    {
-                        case EProcedimiento.Artrodecis:
-                            txtCirugiaXProcedimiento.Text = ((Cirujano)cmbTotalCirugias.SelectedItem).Estadistica.CantArtrodecis.ToString();
-                            break;
-                        case EProcedimiento.Osteodesis:
-                            txtCirugiaXProcedimiento.Text = ((Cirujano)cmbTotalCirugias.SelectedItem).Estadistica.CantOsteodesis.ToString();
-                            break;
-                        case EProcedimiento.Osteotomia:
-                            txtCirugiaXProcedimiento.Text = ((Cirujano)cmbTotalCirugias.SelectedItem).Estadistica.CantOsteotomia.ToString();
-                            break;
-                        case EProcedimiento.RAFI:
-                            txtCirugiaXProcedimiento.Text = ((Cirujano)cmbTotalCirugias.SelectedItem).Estadistica.CantRAFI.ToString();
-                            break;
-                        case EProcedimiento.ReduccionCerrada:
-                            txtCirugiaXProcedimiento.Text = ((Cirujano)cmbTotalCirugias.SelectedItem).Estadistica.CantReduccionCerrada.ToString();
-                            break;
-                        case EProcedimiento.Yeso:
-                            txtCirugiaXProcedimiento.Text = ((Cirujano)cmbTotalCirugias.SelectedItem).Estadistica.CantYeso.ToString();
-                            break;
-                    }
+                //if (esMedico)
+                //{
+                //    switch (aux)
+                //    {
+                //        case EProcedimiento.Artrodecis:
+                //            txtCirugiaXProcedimiento.Text = ((Cirujano)cmbTotalCirugias.SelectedItem).Estadistica.CantArtrodecis.ToString();
+                //            break;
+                //        case EProcedimiento.Osteodesis:
+                //            txtCirugiaXProcedimiento.Text = ((Cirujano)cmbTotalCirugias.SelectedItem).Estadistica.CantOsteodesis.ToString();
+                //            break;
+                //        case EProcedimiento.Osteotomia:
+                //            txtCirugiaXProcedimiento.Text = ((Cirujano)cmbTotalCirugias.SelectedItem).Estadistica.CantOsteotomia.ToString();
+                //            break;
+                //        case EProcedimiento.RAFI:
+                //            txtCirugiaXProcedimiento.Text = ((Cirujano)cmbTotalCirugias.SelectedItem).Estadistica.CantRAFI.ToString();
+                //            break;
+                //        case EProcedimiento.ReduccionCerrada:
+                //            txtCirugiaXProcedimiento.Text = ((Cirujano)cmbTotalCirugias.SelectedItem).Estadistica.CantReduccionCerrada.ToString();
+                //            break;
+                //        case EProcedimiento.Yeso:
+                //            txtCirugiaXProcedimiento.Text = ((Cirujano)cmbTotalCirugias.SelectedItem).Estadistica.CantYeso.ToString();
+                //            break;
+                //    }
 
-                }
+                //}
             }
         }
         //Genera el llamado a un nuevo formulario que mostrara los listados de las cosas

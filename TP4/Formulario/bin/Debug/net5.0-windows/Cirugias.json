@@ -394,5 +394,38 @@
       "Edad": 81
     },
     "Fecha": "2021-11-20T16:16:21.7675535-03:00"
+  },
+  {
+    "Cirujano": {
+      "Rol": "Cirujano",
+      "Estadistica": {
+        "CantColumna": 0,
+        "CantMiembroSuperior": 0,
+        "CantMiembroInferior": 1,
+        "CantPelvis": 0,
+        "CantRAFI": 0,
+        "CantReduccionCerrada": 0,
+        "CantOsteotomia": 0,
+        "CantArtrodecis": 0,
+        "CantOsteodesis": 0,
+        "CantYeso": 1
+      },
+      "Nombre": "Ornela",
+      "Apellido": "Curcio",
+      "Dni": 34707599,
+      "Edad": 31
+    },
+    "Procedimiento": "Osteotomia",
+    "Patologia": "Columna",
+    "Paciente": {
+      "Patologia": [
+        "Columna"
+      ],
+      "Nombre": "Alvina",
+      "Apellido": "Gateshill",
+      "Dni": 71809444,
+      "Edad": 52
+    },
+    "Fecha": "2021-11-21T00:11:53.8973739-03:00"
   }
 ]
