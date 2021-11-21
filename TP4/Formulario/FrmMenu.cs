@@ -19,7 +19,7 @@ namespace Formulario
         }
         private void Form1_Load(object sender, EventArgs e)
         {
-            lblTitulo.Text = "Servicio de Ortopedia y Traumatologia\nHospital Casa Cuna"; 
+            lblTitulo.Text = "Servicio de Ortopedia y Traumatologia\nHospital UTN"; 
         }
 
         private void btnPaciente_Click(object sender, EventArgs e)

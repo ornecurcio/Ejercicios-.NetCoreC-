@@ -373,6 +373,48 @@ namespace Entidades
             }
             return cirugiasXPatologiaYCirujano;
         }
+        public static string CargarInfoPacientes()
+        {
+            float cantidadPacientesMayoresDeEdad = 0;
+            float porcentaje;
+            foreach (Paciente item in Hospital.Pacientes)
+            {
+                if (item.Edad > 18)
+                    cantidadPacientesMayoresDeEdad++;
+            }
+
+            porcentaje = cantidadPacientesMayoresDeEdad / Hospital.Pacientes.Count;
+            StringBuilder stringBuilder = new StringBuilder();
+            stringBuilder.Append($"Pacientes mayores de edad representan el {Math.Round(porcentaje, 2) * 100}% de los pacientes"); 
+            stringBuilder.AppendLine($"(Cantidad de pacientes mayores de edad: {cantidadPacientesMayoresDeEdad} de {Hospital.Pacientes.Count}) \n\n");
+
+            return stringBuilder.ToString(); 
+        }
+        public static string PocentajeCirugiasCadaMedico()
+        {
+            Dictionary<Cirujano, int> contador = new Dictionary<Cirujano, int>();
+
+            foreach (Cirujano cirujano in Hospital.Cirujanos)
+            {
+                int cantidad = 0;
+                foreach (Cirugia item in Hospital.CirugiasRealizadas)
+                {
+                    if (cirujano == item.Cirujano)
+                    {
+                        cantidad++;
+                    }
+                }
+                contador.Add(cirujano, cantidad);
+            }
+
+            StringBuilder stringBuilder = new StringBuilder();
+            foreach (KeyValuePair<Cirujano, int> item in contador)
+            {
+                float porcentaje = ((float)item.Value / Hospital.CirugiasRealizadas.Count) * 100;
+                stringBuilder.AppendLine($"{item.Key.ToString()} realizo {Math.Round(porcentaje, 2)}% (Cantidad: {item.Value} de {Hospital.CirugiasRealizadas.Count})");
+            }
+            return stringBuilder.ToString();
+        }
         #endregion
     }
 }
