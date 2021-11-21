@@ -29,6 +29,7 @@ namespace Formulario
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmQuirofano));
             this.lstPacientes = new System.Windows.Forms.ListBox();
             this.btnRealizarCirugias = new System.Windows.Forms.Button();
             this.btnDetenerQuirofano = new System.Windows.Forms.Button();
@@ -96,12 +97,14 @@ namespace Formulario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 376);
             this.Controls.Add(this.lblPacientes);
             this.Controls.Add(this.btnCerrarQuirofano);
             this.Controls.Add(this.btnDetenerQuirofano);
             this.Controls.Add(this.btnRealizarCirugias);
             this.Controls.Add(this.lstPacientes);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "FrmQuirofano";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

@@ -45,6 +45,7 @@ namespace Formulario
         
         private void FrmQuirofano_Load(object sender, EventArgs e)
         {
+            this.Text = "Quirofano"; 
             lstPacientes.DataSource = Hospital.CirugiasPendientes;
             btnDetenerQuirofano.Enabled = false; 
         }

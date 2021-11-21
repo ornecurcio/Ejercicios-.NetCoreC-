@@ -29,6 +29,7 @@ namespace Formulario
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmEstadisticaHospital));
             this.lbl_titulo = new System.Windows.Forms.Label();
             this.rchInfoHospital = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
@@ -63,6 +64,7 @@ namespace Formulario
             this.ClientSize = new System.Drawing.Size(805, 515);
             this.Controls.Add(this.rchInfoHospital);
             this.Controls.Add(this.lbl_titulo);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmEstadisticaHospital";
             this.Text = "FrmEstadisticaHospital";
             this.Load += new System.EventHandler(this.FrmEstadisticaHospital_Load);
