@@ -32,7 +32,6 @@ namespace Formulario
             if (servicio)
             {
                 this.LoadInicial();
-                cmbTotalCirugias.Visible = false;
                 txtTotalCirugias.Text = Hospital.CirugiasRealizadas.Count.ToString();
                 txtTotalCirugias.Enabled = false;
             }
@@ -47,18 +46,6 @@ namespace Formulario
         {
             cmbCirugiaXPatologia.Enabled = false;
             cmbCirugiaXProcedimiento.Enabled = false;
-        }
-        //Si se selecciona un cirujano, se coloca la cantidad de cirugias totales que tiene echas 
-        private void cmbTotalCirugias_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            if (cmbTotalCirugias.CanSelect)
-            {
-                //int aux = ((Cirujano)cmbTotalCirugias.SelectedItem).Estadistica.CantColumna +
-                // ((Cirujano)cmbTotalCirugias.SelectedItem).Estadistica.CantMiembroSuperior +
-                // ((Cirujano)cmbTotalCirugias.SelectedItem).Estadistica.CantMiembroInferior +
-                // ((Cirujano)cmbTotalCirugias.SelectedItem).Estadistica.CantPelvis;
-                //txtTotalCirugias.Text = aux.ToString();
-            }
         }
         //Al cliquear se habilita el cmb para seleccionar patologia
         private void btnPatologias_Click(object sender, EventArgs e)
@@ -188,39 +175,39 @@ namespace Formulario
         {
             EProcedimiento auxPr;
             EPatologia auxP;
-            if (servicio && !cmbTotalCirugias.Visible && !cmbCirugiaXPatologia.Enabled && !cmbCirugiaXProcedimiento.Enabled)
+            if (servicio && !cmbCirugiaXPatologia.Enabled && !cmbCirugiaXProcedimiento.Enabled)
             {
                 FrmMostrarEstadistica mostrarEstadistica = new FrmMostrarEstadistica(servicio);
                 mostrarEstadistica.ShowDialog();
             }
-            if (servicio && !cmbTotalCirugias.Visible && cmbCirugiaXPatologia.CanSelect && !cmbCirugiaXProcedimiento.Enabled
+            if (servicio && cmbCirugiaXPatologia.CanSelect && !cmbCirugiaXProcedimiento.Enabled
                && Enum.TryParse(cmbCirugiaXPatologia.Text, out auxP))
             {
                 FrmMostrarEstadistica mostrarEstadistica = new FrmMostrarEstadistica(servicio, auxP);
                 mostrarEstadistica.ShowDialog();
             }
-            if (!cmbTotalCirugias.Visible && !cmbCirugiaXPatologia.Enabled && cmbCirugiaXProcedimiento.CanSelect
+            if (!cmbCirugiaXPatologia.Enabled && cmbCirugiaXProcedimiento.CanSelect
               //if(servicio
               && Enum.TryParse(cmbCirugiaXProcedimiento.Text, out auxPr))
             {
                 FrmMostrarEstadistica mostrarEstadistica = new FrmMostrarEstadistica(servicio, auxPr);
                 mostrarEstadistica.ShowDialog();
             }
-            if (cmbTotalCirugias.CanSelect && !cmbCirugiaXPatologia.Enabled && !cmbCirugiaXProcedimiento.Enabled)
-            {
-                FrmMostrarEstadistica mostrarEstadistica = new FrmMostrarEstadistica((Cirujano)cmbTotalCirugias.SelectedItem);
-                mostrarEstadistica.ShowDialog();
-            }
-            if (cmbTotalCirugias.CanSelect && cmbCirugiaXPatologia.CanSelect && Enum.TryParse(cmbCirugiaXPatologia.Text, out auxP))
-            {
-                FrmMostrarEstadistica mostrarEstadistica = new FrmMostrarEstadistica((Cirujano)cmbTotalCirugias.SelectedItem, auxP);
-                mostrarEstadistica.ShowDialog();
-            }
-            if (cmbTotalCirugias.CanSelect && cmbCirugiaXProcedimiento.CanSelect && Enum.TryParse(cmbCirugiaXProcedimiento.Text, out auxPr))
-            {
-                FrmMostrarEstadistica mostrarEstadistica = new FrmMostrarEstadistica((Cirujano)cmbTotalCirugias.SelectedItem, auxPr);
-                mostrarEstadistica.ShowDialog();
-            }
+            //if (!cmbCirugiaXPatologia.Enabled && !cmbCirugiaXProcedimiento.Enabled)
+            //{
+            //    FrmMostrarEstadistica mostrarEstadistica = new FrmMostrarEstadistica((Cirujano)cmbTotalCirugias.SelectedItem);
+            //    mostrarEstadistica.ShowDialog();
+            //}
+            //if (cmbTotalCirugias.CanSelect && cmbCirugiaXPatologia.CanSelect && Enum.TryParse(cmbCirugiaXPatologia.Text, out auxP))
+            //{
+            //    FrmMostrarEstadistica mostrarEstadistica = new FrmMostrarEstadistica((Cirujano)cmbTotalCirugias.SelectedItem, auxP);
+            //    mostrarEstadistica.ShowDialog();
+            //}
+            //if (cmbTotalCirugias.CanSelect && cmbCirugiaXProcedimiento.CanSelect && Enum.TryParse(cmbCirugiaXProcedimiento.Text, out auxPr))
+            //{
+            //    FrmMostrarEstadistica mostrarEstadistica = new FrmMostrarEstadistica((Cirujano)cmbTotalCirugias.SelectedItem, auxPr);
+            //    mostrarEstadistica.ShowDialog();
+            //}
             if (!esMedico && !servicio && cmbCirugiaXPatologia.CanSelect && Enum.TryParse(cmbCirugiaXPatologia.Text, out auxP))
             {
                 FrmMostrarEstadistica mostrarEstadistica = new FrmMostrarEstadistica(auxP);
@@ -228,18 +215,18 @@ namespace Formulario
             }
         }
         //Oculta los cmb de cirujanos y de hospital
-        private void LoadPaciente()
-        {
-            cmbCirugiaXPatologia.Visible = true;
-            cmbCirugiaXPatologia.Enabled = false;
-            txtTotalCirugias.Visible = false;
-            txtCirugiaXPatologia.Visible = false;
-            txtCirugiaXProcedimiento.Visible = false;
-            cmbTotalCirugias.Visible = false;
-            lblTotalCirugias.Visible = false;
-            btnProcedimientos.Visible = false;
-            cmbCirugiaXProcedimiento.Visible = false;
-        }
+        //private void LoadPaciente()
+        //{
+        //    cmbCirugiaXPatologia.Visible = true;
+        //    cmbCirugiaXPatologia.Enabled = false;
+        //    txtTotalCirugias.Visible = false;
+        //    txtCirugiaXPatologia.Visible = false;
+        //    txtCirugiaXProcedimiento.Visible = false;
+        //    cmbTotalCirugias.Visible = false;
+        //    lblTotalCirugias.Visible = false;
+        //    btnProcedimientos.Visible = false;
+        //    cmbCirugiaXProcedimiento.Visible = false;
+        //}
         //Coloca en Eneble son cmb y txt
         private void LoadInicial()
         {

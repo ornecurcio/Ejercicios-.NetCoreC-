@@ -37,9 +37,8 @@ namespace Formulario
 
             porcentaje = cantidadPacientesMayoresDeEdad / Hospital.Pacientes.Count;
 
-            this.rchInfoHospital.Text += $"Pacientes mayores de edad representan el {Math.Round(porcentaje,2)} de los pacientes";
+            this.rchInfoHospital.Text += $"Pacientes mayores de edad representan el {Math.Round(porcentaje,2)*100}% de los pacientes";
             this.rchInfoHospital.Text += $"(Cantidad de pacientes mayores de edad: {cantidadPacientesMayoresDeEdad} de {Hospital.Pacientes.Count}) \n\n";
-
         }
 
         private void CargarInfoCirujanos()
@@ -54,7 +53,7 @@ namespace Formulario
 
             porcentaje = cantCirujanos / Hospital.Cirujanos.Count;
 
-            this.rchInfoHospital.Text += $"Los ayudantes representan el {Math.Round(porcentaje, 2)} de los medicos";
+            this.rchInfoHospital.Text += $"Los ayudantes representan el {Math.Round(porcentaje, 2)*100}% de los medicos";
             this.rchInfoHospital.Text += $"(Cantidad ayudantes: {cantCirujanos} de {Hospital.Cirujanos.Count}) \n\n";
 
         }
