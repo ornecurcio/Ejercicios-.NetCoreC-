@@ -121,7 +121,8 @@ namespace Entidades
         public void CirugiaRealizada()
         {
             this.operado = true;
-            Hospital.CirugiasPendientes.Remove(this); 
+            Hospital.CirugiasPendientes.Remove(this);
+            Hospital.SerializarCirugias(); 
         }
         
         public void ActualizarEstadisticaHospital()

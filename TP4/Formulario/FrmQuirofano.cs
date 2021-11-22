@@ -23,12 +23,25 @@ namespace Formulario
                 this.cirugias.Add(item);
             }
         }
+        private void FrmQuirofano_Load(object sender, EventArgs e)
+        {
+            this.Text = "Quirofano";
+            lstPacientes.DataSource = Hospital.CirugiasPendientes;
+            btnDetenerQuirofano.Enabled = false;
+        }
         //TODO ACTUALIZAR SQL a medida que se opera la gente
         private void btnRealizarCirugias_Click(object sender, EventArgs e)
         {
-            Task.Run(() => ActualizarLista(Hospital.Cts.Token));
-            btnDetenerQuirofano.Enabled = true;
-            btnRealizarCirugias.Enabled = false; 
+            try
+            {
+                Task.Run(() => ActualizarLista(Hospital.Cts.Token));
+                btnDetenerQuirofano.Enabled = true;
+                btnRealizarCirugias.Enabled = false;
+            }
+            catch(Exception ex)
+            {
+                ex.MostrarMensajeError(); 
+            }
         }
 
         private void btnDetenerQuirofano_Click(object sender, EventArgs e)
@@ -42,13 +55,7 @@ namespace Formulario
         {
             this.Close(); 
         }
-        
-        private void FrmQuirofano_Load(object sender, EventArgs e)
-        {
-            this.Text = "Quirofano"; 
-            lstPacientes.DataSource = Hospital.CirugiasPendientes;
-            btnDetenerQuirofano.Enabled = false; 
-        }
+ 
         private void ActualizarLista(CancellationToken cts)
         {
             foreach (Cirugia item in cirugias)

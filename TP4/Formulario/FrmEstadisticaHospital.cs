@@ -26,7 +26,20 @@ namespace Formulario
             this.rchInfoHospital.Text += Hospital.CargarPatologiaPrevalente();
             this.rchInfoHospital.Text += Hospital.CargarProcedimientoPrevalente();
             this.rchInfoHospital.Text += Hospital.PocentajeCirugiasCadaMedico(); 
-        }        
-        
+        }
+
+        private void btnArchivo_Click(object sender, EventArgs e)
+        {try
+            {
+                string ruta = Archivo.GenerarRuta($"{DateTime.Today.ToString("dd-MM-yyyy")} Estadistica de Ortopedia y Traumatologia");
+                Archivo.EscribirNuevoTxt(ruta, this.rchInfoHospital.Text);
+                MessageBox.Show("Archivo generado con exito", "Exito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                this.Close();
+            }
+            catch (Exception ex) 
+            { 
+                ex.MostrarMensajeError(); 
+            }
+        }
     }
 }

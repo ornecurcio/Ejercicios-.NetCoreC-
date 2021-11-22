@@ -229,55 +229,6 @@ namespace Entidades
         #endregion
 
         #region Insert
-        //public bool ActualizarEstadisticaCirujano(Cirujano param)
-        //{
-        //    bool rta = true;
-
-        //    try
-        //    {
-        //        comando = new SqlCommand();
-
-        //        comando.Parameters.AddWithValue("@dni", param.Dni);
-        //        comando.Parameters.AddWithValue("@idRol", param.Rol);
-
-        //        string sql = 
-        //            "INSERT INTO dbo.EstadisticaCirujano (IdCirujano, IdRol, columna, miembroSuperior, miembroInferior, pelvis, " +
-        //            "RAFI, ReduccionCerrada, Osteotomia, Artrodecis, Osteodesis, Yeso) " +
-        //            "VALUES(" + param.Dni.ToString() +", "+ ((int)param.Rol).ToString()+", " + param.Estadistica.CantColumna.ToString() + "," + param.Estadistica.CantMiembroSuperior.ToString() + "," +
-        //                      param.Estadistica.CantMiembroInferior.ToString() + "," + param.Estadistica.CantPelvis.ToString() + "," +
-        //                      param.Estadistica.CantRAFI.ToString() + "," + param.Estadistica.CantReduccionCerrada.ToString() + "," + param.Estadistica.CantOsteotomia.ToString() + "," +
-        //                      param.Estadistica.CantArtrodecis.ToString() + "," + param.Estadistica.CantOsteodesis.ToString() + "," + param.Estadistica.CantYeso.ToString() + ")";
-
-
-        //        comando.CommandType = CommandType.Text;
-        //        comando.CommandText = sql;
-        //        comando.Connection = conexion;
-
-        //        conexion.Open();
-
-        //        int filasAfectadas = comando.ExecuteNonQuery();
-
-        //        if (filasAfectadas == 0)
-        //        {
-        //            rta = false;
-        //        }
-
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        Console.WriteLine(ex.Message); 
-        //        rta = false;
-        //    }
-        //    finally
-        //    {
-        //        if (conexion.State == ConnectionState.Open)
-        //        {
-        //            conexion.Close();
-        //        }
-        //    }
-
-        //    return rta;
-        //}
         public bool ActualizarEstadisticaHospital(Estadistica param)
         {
             bool rta = true;
@@ -623,7 +574,6 @@ namespace Entidades
         #endregion
 
         #region Delete
-
         public bool EliminarPaciente(double dni)
         {
             bool rta = true;

@@ -186,7 +186,6 @@ namespace Entidades
                 {
                     cirugiasPendientes.Add(aux);
                     SerializarCirugias();
-                    //SerializarCirujanos();
                     return true; 
                 }
                 return false; 
